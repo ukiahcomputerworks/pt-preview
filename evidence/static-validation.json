@@ -1,0 +1,43 @@
+{
+  "sourcePages": 13,
+  "sourceBlocks": 173,
+  "retained": 171,
+  "exclusions": [
+    {
+      "source": "home",
+      "block": 8,
+      "text": "Our Expertise",
+      "disposition": "excluded",
+      "reason": "Promoted into the shared expertise eyebrow; wording retained"
+    },
+    {
+      "source": "book-an-appointment",
+      "block": 1,
+      "text": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
+      "disposition": "excluded",
+      "reason": "Unrelated Squarespace business/creative-project template copy, replaced by accurate call-to-schedule guidance"
+    }
+  ],
+  "routes": [
+    "index.html",
+    "about/index.html",
+    "about-us/index.html",
+    "book-an-appointment/index.html",
+    "careers/index.html",
+    "contact-us/index.html",
+    "faqs/index.html",
+    "functional-fitness-classes/index.html",
+    "golf-performance/index.html",
+    "healthy-aging/index.html",
+    "home/index.html",
+    "insurance/index.html",
+    "meet-the-team/index.html",
+    "patient-forms/index.html",
+    "physical-therapy/index.html",
+    "physical-therapy-1/index.html",
+    "preview-information/index.html",
+    "sports-rehabilitation/index.html",
+    "testimonials/index.html"
+  ],
+  "status": "PASS"
+}

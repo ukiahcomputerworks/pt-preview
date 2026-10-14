@@ -1,0 +1,32 @@
+{
+  "base": "https://ukiahcomputerworks.github.io/pt-preview/",
+  "routes": [
+    "/",
+    "/physical-therapy-1/",
+    "/functional-fitness-classes/",
+    "/golf-performance/",
+    "/meet-the-team/",
+    "/testimonials/",
+    "/contact-us/",
+    "/careers/",
+    "/insurance/",
+    "/patient-forms/",
+    "/faqs/",
+    "/about-us/",
+    "/book-an-appointment/",
+    "/sports-rehabilitation/",
+    "/healthy-aging/",
+    "/preview-information/",
+    "/home/",
+    "/physical-therapy/",
+    "/about/"
+  ],
+  "aliases": {
+    "home": "",
+    "physical-therapy": "physical-therapy-1/",
+    "about": "insurance/"
+  },
+  "excludedRoutes": {
+    "/cart": "Empty ecommerce utility with no practice content"
+  }
+}

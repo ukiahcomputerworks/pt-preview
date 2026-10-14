@@ -19,3 +19,4 @@ Home: primary heading, goal buttons, state illustration/live copy, care disclosu
 
 ## Rights And Privacy
 Original abstract SVG illustration authored for this concept, marked conceptual. No photos, logos, competitor copy, testimonials or identifiable patients copied. Practice name and public contact facts used in isolated review. Source copyright 2024 Mendocino Physical Therapy retained; no claim of official endorsement. Production media clearance and practice acceptance pending. No data input, transmission, tracking or persistence in concept. Phone actions open the user's dialer; no automatic call occurs.
+

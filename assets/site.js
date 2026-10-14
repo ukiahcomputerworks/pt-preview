@@ -1,17 +1,19 @@
 'use strict';
-const records={
- outdoors:{kicker:'01 / The Outdoors',title:'Take The Long Way Home.',copy:'One-on-one physical therapy, with movement and exercise tailored to your needs and goals.',graphic:'Conceptual illustration of a walking path through a Mendocino-inspired landscape',path:'M65 380C130 343 176 395 250 360S345 280 420 315S545 390 675 293'},
- everyday:{kicker:'02 / Everyday Strength',title:'Make Room For Everyday Wins.',copy:'Explore fitness and mobility classes focused on strength, balance and everyday movement. Ask about clinic classes and the separate 55+ Legends program with Crossfit Firefly.',graphic:'Conceptual illustration of everyday lifting and movement in a landscape',path:'M65 380C180 380 205 270 305 302S475 385 530 270S620 230 675 293'},
- recovery:{kicker:'03 / Life After Surgery',title:'Your Next Chapter Starts Here.',copy:'The practice offers personalized postoperative rehabilitation. Talk with a physical therapist about your recovery needs and the activities that matter to you.',graphic:'Conceptual illustration of a person walking with a support and a gradual path',path:'M65 390C180 390 220 360 315 355S465 325 530 310S620 290 675 270'},
- golf:{kicker:'04 / A Full Round',title:'There’s More To Your Swing.',copy:'A body screen, swing analysis and personalized exercise program connect golf performance with the way you move. Ask the practice about its TPI assessment.',graphic:'Conceptual illustration of a golfer and a swing arc',path:'M65 380C250 380 280 80 470 80S700 250 504 331'}
+const goals={
+ sport:{kicker:'01 / Back To Sport',title:'Your Game. Your Comeback.',copy:'Recovering from a sports injury or an ACL injury? Talk with the team about your goals, your sport and where you want to go next.',link:'sports-rehabilitation/',label:'Explore Sports Rehabilitation ↗',image:'assets/media/24-tempimageifqpdx.jpg',alt:'Hands-on physical therapy pictured on the practice website',path:'M55 380C210 380 235 300 355 330S550 380 700 235'},
+ everyday:{kicker:'02 / Everyday Confidence',title:'Steady Steps. Full Days.',copy:'Walking, balance, everyday strength and feeling more confident in your movement. Explore one-on-one care and fitness opportunities at every stage of life.',link:'healthy-aging/',label:'Explore Everyday Confidence ↗',image:'assets/media/03-tempimagei0xaud.jpg',alt:'Strength and mobility pictured on the practice website',path:'M55 380C190 380 200 300 320 320S530 380 700 250'},
+ recovery:{kicker:'03 / After Surgery',title:'A New Knee. Your Own Next Chapter.',copy:'Your recovery goals are personal. The practice offers postoperative rehabilitation with individualized attention, hands-on care and exercise.',link:'physical-therapy-1/',label:'Explore Physical Therapy ↗',image:'assets/media/21-tempimage7gkmq2.jpg',alt:'Individual physical therapy pictured on the practice website',path:'M55 400C170 400 240 360 350 350S530 320 700 260'},
+ golf:{kicker:'04 / A Full Round',title:'There’s More To Your Swing.',copy:'A body screen, swing analysis and a personalized corrective exercise program connect golf performance with the way you move.',link:'golf-performance/',label:'Explore Golf Performance ↗',image:'assets/media/22-image-asset.jpg',alt:'Golf photograph from the practice website',path:'M55 380C230 380 250 70 465 75S700 240 520 350'}
 };
 document.querySelectorAll('[data-goal]').forEach(button=>button.addEventListener('click',()=>{
- const key=button.dataset.goal,record=records[key];
+ const record=goals[button.dataset.goal];
  document.querySelectorAll('[data-goal]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
- document.querySelector('[data-scene]').dataset.scene=key;
+ document.querySelector('[data-scene]').dataset.scene=button.dataset.goal;
  document.getElementById('goal-kicker').textContent=record.kicker;
  document.getElementById('goal-title').textContent=record.title;
  document.getElementById('goal-copy').textContent=record.copy;
- document.getElementById('scene-title').textContent=record.graphic;
+ const link=document.getElementById('goal-link');link.href=record.link;link.textContent=record.label;
+ const image=document.querySelector('.goal-photo');image.src=record.image;image.alt=record.alt;
  document.getElementById('motion-path').setAttribute('d',record.path);
 }));
+document.addEventListener('keydown',event=>{if(event.key==='Escape')document.querySelectorAll('.menu[open]').forEach(menu=>{menu.removeAttribute('open');menu.querySelector('summary').focus();});});

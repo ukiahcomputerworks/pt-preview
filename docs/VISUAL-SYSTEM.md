@@ -15,3 +15,4 @@ Proposed art direction, awaiting owner acceptance. Apply CWU compact-layout and 
 | Link states | Underline, hover clay, focus 3px ochre with dark outline; visited inherits role |
 
 One route and four content states, same components. Normal sections 16px vertical padding. Hero sizes to actual content, no min-height/viewport filler. Illustration supports the selector and scales by intrinsic ratio. Breakpoints 760px and 480px. Footer legal left / credit right, stacks naturally on phone. Reduced-motion disables decorative line drawing. No scroll lock, carousel, motion-only information or animation loop. Record computed dimensions and inspect top/middle/footer at 1440/390/320 and tablet before acceptance.
+

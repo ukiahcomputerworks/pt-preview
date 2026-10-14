@@ -1,0 +1,1384 @@
+[
+  {
+    "source": "home",
+    "block": 0,
+    "text": "Movement is Medicine",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-0"
+  },
+  {
+    "source": "home",
+    "block": 1,
+    "text": "Get back to moving pain-free.",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-1"
+  },
+  {
+    "source": "home",
+    "block": 2,
+    "text": "A Unique Physical Therapy Experience",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-2"
+  },
+  {
+    "source": "home",
+    "block": 3,
+    "text": "Whether you're recovering from surgery or striving for peak performance, we're here to support you every step of the way.",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-3"
+  },
+  {
+    "source": "home",
+    "block": 4,
+    "text": "Restore Mobility",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-4"
+  },
+  {
+    "source": "home",
+    "block": 5,
+    "text": "We specialize in restoring mobility and improving pain-free movement using advanced orthopedic manual therapy techniques and tailored exercise programs. Our hands-on approach focuses on addressing the root problem for each patient.",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-5"
+  },
+  {
+    "source": "home",
+    "block": 6,
+    "text": "Fitness-Forward",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-6"
+  },
+  {
+    "source": "home",
+    "block": 7,
+    "text": "We believe in a personalized, fitness-forward approach to physical therapy, delivered in a one-on-one setting. Our highly trained therapists develop exercise plans tailored to each patient's unique needs and goals.",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-7"
+  },
+  {
+    "source": "home",
+    "block": 8,
+    "text": "Our Expertise",
+    "disposition": "excluded",
+    "reason": "Promoted into the shared expertise eyebrow; wording retained"
+  },
+  {
+    "source": "home",
+    "block": 9,
+    "text": "Post-Operative Care",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-9"
+  },
+  {
+    "source": "home",
+    "block": 10,
+    "text": "Geriatric Care",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-10"
+  },
+  {
+    "source": "home",
+    "block": 11,
+    "text": "Breathing Dysfunction",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-11"
+  },
+  {
+    "source": "home",
+    "block": 12,
+    "text": "Pelvic Health",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-12"
+  },
+  {
+    "source": "home",
+    "block": 13,
+    "text": "Sports Performance and Rehab",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-13"
+  },
+  {
+    "source": "home",
+    "block": 14,
+    "text": "Functional Fitness Classes",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-14"
+  },
+  {
+    "source": "home",
+    "block": 15,
+    "text": "In addition to individualized therapy sessions, we offer functional fitness classes designed to enhance mobility, strength, and balance. Join our 55+ fitness class at Crossfit Firefly and experience the benefits of a supportive community and expert guidance in achieving your fitness goals.",
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-15"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 0,
+    "text": "Physical Therapy",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-0"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 1,
+    "text": "One-on-one care",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-1"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 2,
+    "text": "We prioritize personalized care for each client, recognizing that everyone's needs and objectives are different. Your physical therapist will provide individualized attention during every session, guiding you through manual therapy techniques and corrective exercises. We're committed to addressing the core of your issue, offering hands-on treatment and support throughout your journey.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-2"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 3,
+    "text": "Techniques",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-3"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 4,
+    "text": "Each of our physical therapists are dedicated to providing first class manual therapy techniques. They have undergone specialized training in a wide range of advanced hands-on techniques and strength training. These techniques have been proven to significantly reduce pain and enhance mobility, allowing us to make a substantial difference in improving your well-being. Our therapists pride themselves in being fitness forward to promote long term health benefits for patients.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-4"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 5,
+    "text": "Below is a list of our treatment techniques.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-5"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 6,
+    "text": "Orthopedic Manual Therapy",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-6"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 7,
+    "text": "Orthopedic Manual Therapy involves hands-on techniques aimed at diagnosing, treating, and preventing a wide range of orthopedic conditions. Through precise manipulation of joints, soft tissues, and muscles, we strive to restore optimal function, alleviate pain, and enhance your overall quality of life.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-7"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 8,
+    "text": "Spine Rehab",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-8"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 9,
+    "text": "Our therapists employ a range of therapeutic interventions, including targeted exercises, manual therapy techniques, and education on proper posture and body mechanics. By addressing muscle imbalances, improving spinal mobility, and strengthening supporting muscles, we aim to alleviate pain, enhance stability, and prevent future injuries.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-9"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 10,
+    "text": "Vestibular Rehab For Dizziness and Vertigo",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-10"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 11,
+    "text": "Vestibular Rehabilitation is a specialized therapy designed to address dizziness and vertigo, often stemming from inner ear problems or other vestibular system disorders. Our comprehensive approach combines targeted exercises and maneuvers aimed at promoting compensation, adaptation, and habituation to help your brain adjust and reduce these symptoms.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-11"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 12,
+    "text": "Myofascial Decompression",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-12"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 13,
+    "text": "Myofascial decompression involves the application of suction cups to the skin, creating negative pressure that gently lifts and separates layers of tissue. This technique aids in releasing tension, breaking up adhesions, and promoting improved blood flow to targeted areas. It's particularly beneficial for addressing muscle tightness, trigger points, and scar tissue adhesions.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-13"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 14,
+    "text": "Instrument-Assisted Soft Tissue Mobilization",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-14"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 15,
+    "text": "involves the use of specially designed tools, such as stainless steel instruments, to apply controlled pressure to targeted areas of the body. These instruments help identify and break down scar tissue, adhesions, and fascial restrictions, promoting tissue remodeling and increased blood flow to the area resulting in reduced pain and improved range of motion.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-15"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 16,
+    "text": "Solutions",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-16"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 17,
+    "text": "Our focus is on providing lasting solutions rather than temporary fixes. We're committed to being your partner in resolving your concerns, and prioritizing strategies that address the root cause rather than merely masking symptoms with modalities, medications, or procedures.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-17"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 18,
+    "text": "Below are some of the conditions we create solutions for.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-18"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 19,
+    "text": "Post-Operative Rehab",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-19"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 20,
+    "text": "We are here to support your recovery journey after surgery with personalized treatment plans designed to optimize healing, restore mobility, and regain function following your procedure.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-20"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 21,
+    "text": "Sports Injury Rehab",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-21"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 22,
+    "text": "Whether you're dealing with a sprain, strain, or more serious injury we create treatment plans focused on restoring strength, flexibility, and function. With a combination of targeted exercises, manual therapy techniques, and sports-specific training, we'll work with you every step of the way to ensure a safe and effective return to your sport.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-22"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 23,
+    "text": "Spine Rehab",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-23"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 24,
+    "text": "Whether you're dealing with back pain, neck stiffness, or recovering from spinal surgery, our experienced team of physical therapists is here to help. Through personalized treatment plans, including exercises, manual therapy, and education on proper spine care, we aim to alleviate pain, improve mobility, and enhance your overall spinal health.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-24"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 25,
+    "text": "Back and Neck Pain",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-25"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 26,
+    "text": "We will work to provide relief and support by creating personalized treatment plans tailored to your specific needs and symptoms. Through a combination of therapeutic exercises, manual therapy techniques, and ergonomic education, we aim to alleviate your pain, improve your mobility, and enhance your overall quality of life.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-26"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 27,
+    "text": "Shoulder Pain",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-27"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 28,
+    "text": "If you're experiencing shoulder discomfort or limitations in movement, we're here to help. Our specialized services focus on addressing a variety of shoulder issues, from rotator cuff injuries to frozen shoulder syndrome. Through targeted exercises, manual therapy techniques, and ergonomic education, we aim to alleviate your pain, improve shoulder mobility, and restore function.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-28"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 29,
+    "text": "Triathelon Injuries",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-29"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 30,
+    "text": "If you're dealing with injuries from your athletic pursuits, we understand the impact it can have on your performance and well-being. Our specialized services are designed to address a wide range of athletic injuries, whether you're a weekend warrior or a professional athlete. Through a combination of targeted exercises, manual therapy techniques, and sports-specific training, we'll work with you to optimize your recovery and get you back to doing what you love.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-30"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 31,
+    "text": "Knee Pain",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-31"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 32,
+    "text": "If you're experiencing discomfort or limitations in your knees, you're not alone. Knee pain can significantly impact your daily life and activities. Through a combination of therapeutic exercises, manual therapy techniques, and education on proper knee mechanics, we aim to alleviate your pain, improve mobility, and enhance your overall quality of life.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-32"
+  },
+  {
+    "source": "physical-therapy-1",
+    "block": 33,
+    "text": "Get started with Mendocino Physical Therapy, today.",
+    "disposition": "retained",
+    "target": "physical-therapy-1",
+    "id": "physical-therapy-1-33"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 0,
+    "text": "Legends Cross-Fit Classes",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-0"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 1,
+    "text": "We are proud to be partnered with Crossfit Firefly and put on our Legends Cross-Fit classes. These classes are specifically designed to incorporate all aspects of fitness for the aging adult (55+) and to promote a healthy lifestyle. We believe that the aging process does not have to be a persistent decline and we are excited to work with you to break the negative stereotypes associated with aging to show that instead of getting weaker, slower, and fragile, you can become stronger, faster, and resilient! You will be coached by physical therapist William Binns, that will push you into new levels of fitness and function. Our Cross-Fit classes will incorporate strength training, functional lifting patterns, mobility, balance exercises, and cardiovascular exercise.",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-1"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 2,
+    "text": "Class Schedule:",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-2"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 3,
+    "text": "Monday, Tuesday, Wednesday, and Friday",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-3"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 4,
+    "text": "Class Time: 2-3 pm",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-4"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 5,
+    "text": "Memberships:",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-5"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 6,
+    "text": "We offer a wide range of memberships including: 8 class punchcards, monthly memberships, and drop in rates.",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-6"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 7,
+    "text": "How to register:",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-7"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 8,
+    "text": "If you are interested, or would like to register, call or email Firefly at (707) 234-3239, crossfitfirefly@gmail.com or visit the gym. Liability waivers and initial registration may take up 10 15 minutes to complete so please arrive early or call Firefly to be sent a link to fill out prior to coming.",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-8"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 9,
+    "text": "Fitness and Mobility Classes at Mendocino Physical Therapy",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-9"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 10,
+    "text": "We are excited to announce our new fitness and mobility classes designed by our therapists at Mendocino Physical Therapy! Each class will have its own specific focus on certain areas of need",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-10"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 11,
+    "text": "Classes include:",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-11"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 12,
+    "text": "Therapeutic Stretching and Mobility (Tuesdays)",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-12"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 13,
+    "text": "What is it? Therapeutic Stretching and Mobility are controlled movements and gentle stretches to improve joint range of motion, reduce stiffness, relieve tension, and support healthier, pain-free movement.",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-13"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 14,
+    "text": "Balance and Core Training (Thursdays)",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-14"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 15,
+    "text": "What is it? Balance and core training focuses on improving stability, posture, and control by strengthening the muscles of the abdomen, back, and hips while challenging the body’s ability to maintain equilibrium during static and dynamic movements. This type of training helps enhance coordination, prevent falls, and support safe, efficient movement in daily activities.",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-15"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 16,
+    "text": "Functional Fitness (Mondays, Wednesdays, and Fridays)",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-16"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 17,
+    "text": "What is Functional Fitness? Functional fitness is a style of training that strengthens your body for everyday movements—like lifting, bending, pushing, and carrying—through exercises that mimic real-life activities.",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-17"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 18,
+    "text": "Class Schedule:",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-18"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 19,
+    "text": "Classes will be held at Mendocino Physical Therapy from 11am-12pm",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-19"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 20,
+    "text": "Address: 780 S Dora St, Ukiah CA 95482",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-20"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 21,
+    "text": "Monday through Friday",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-21"
+  },
+  {
+    "source": "functional-fitness-classes",
+    "block": 22,
+    "text": "Class Time: 11am-12 pm",
+    "disposition": "retained",
+    "target": "functional-fitness-classes",
+    "id": "functional-fitness-classes-22"
+  },
+  {
+    "source": "golf-performance",
+    "block": 0,
+    "text": "Golf Performance",
+    "disposition": "retained",
+    "target": "golf-performance",
+    "id": "golf-performance-0"
+  },
+  {
+    "source": "golf-performance",
+    "block": 1,
+    "text": "Titleist Performance Institute Certified",
+    "disposition": "retained",
+    "target": "golf-performance",
+    "id": "golf-performance-1"
+  },
+  {
+    "source": "golf-performance",
+    "block": 2,
+    "text": "We offer specialized assessments tailored to golfers, aiming to enhance swing mechanics, increase power, and minimize the risk of injuries. These assessments are designed to evaluate key aspects of a golfer's physical fitness, such as flexibility, strength, and mobility, which directly impact their performance on the course. By identifying areas for improvement and implementing targeted exercises and training programs, TPI helps golfers optimize their game and achieve their full potential.",
+    "disposition": "retained",
+    "target": "golf-performance",
+    "id": "golf-performance-2"
+  },
+  {
+    "source": "golf-performance",
+    "block": 3,
+    "text": "What is a TPI Assessment?",
+    "disposition": "retained",
+    "target": "golf-performance",
+    "id": "golf-performance-3"
+  },
+  {
+    "source": "golf-performance",
+    "block": 4,
+    "text": "Body Screen:",
+    "disposition": "retained",
+    "target": "golf-performance",
+    "id": "golf-performance-4"
+  },
+  {
+    "source": "golf-performance",
+    "block": 5,
+    "text": "PT evaluation and 16 step screen designed to help identify your body’s limitations and any source of pain",
+    "disposition": "retained",
+    "target": "golf-performance",
+    "id": "golf-performance-5"
+  },
+  {
+    "source": "golf-performance",
+    "block": 6,
+    "text": "Swing analysis:",
+    "disposition": "retained",
+    "target": "golf-performance",
+    "id": "golf-performance-6"
+  },
+  {
+    "source": "golf-performance",
+    "block": 7,
+    "text": "Help identify any swing faults that may be affecting shot consistency or resulting in pain.",
+    "disposition": "retained",
+    "target": "golf-performance",
+    "id": "golf-performance-7"
+  },
+  {
+    "source": "golf-performance",
+    "block": 8,
+    "text": "Training session:",
+    "disposition": "retained",
+    "target": "golf-performance",
+    "id": "golf-performance-8"
+  },
+  {
+    "source": "golf-performance",
+    "block": 9,
+    "text": "Personalized corrective exercise program designed to address deficits found in your body screen and swing analysis",
+    "disposition": "retained",
+    "target": "golf-performance",
+    "id": "golf-performance-9"
+  },
+  {
+    "source": "golf-performance",
+    "block": 10,
+    "text": "Get started with Mendocino Physical Therapy, today.",
+    "disposition": "retained",
+    "target": "golf-performance",
+    "id": "golf-performance-10"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 0,
+    "text": "Meet The Team",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-0"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 2,
+    "text": "William Binns",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-2"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 1,
+    "text": "Owner, PT, DPT, CF- L1, Titleist Performance Institute Certified",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-1"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 3,
+    "text": "Dr Binns, a resident of Ukiah, has a passion for helping people reach their highest potential with a hands-on approach. He graduated from Sonoma State University with a BS in Kinesiology and earned his Doctor of Physical Therapy degree in 2017 from The University of St. Augustine in Austin, Texas where he learned specialized manual therapy treatment techniques developed by Stanley Paris. These skills enable him to help his patients achieve great results by identifying the root source of their problem and developing a treatment plan to address and correct the identified issues.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-3"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 4,
+    "text": "Billy specializes in orthopedic manual therapy, sports rehabilitation and chronic pain by using his knowledge of current research and evidence-based practice. He has extensive training with olympic lifting and specializes in the rehabilitation of Crossfit and endurance athletes. He is a Crossfit Level 1 trainer. He is certified by the Titleist Performance Institute to perform the golf-specific TPI assessments which help golfers improve their swing mechanics, build power and reduce injuries.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-4"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 6,
+    "text": "Victor Hernandez",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-6"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 5,
+    "text": "PT, DPT",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-5"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 7,
+    "text": "Dr Hernandez is a lifelong resident of Ukiah. Born and raised in the community, he grew up participating in various sports, with soccer being his primary focus. He attended Ukiah High School before continuing his education at Mendocino College, where he also competed as a member of the soccer team. His athletic dedication earned him a soccer scholarship to the University of Saint Mary in Leavenworth, Kansas. After a year in Kansas, he returned to California and completed his bachelor’s degree at Sonoma State University in 2019.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-7"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 8,
+    "text": "Following graduation, Victor returned to Mendocino College as part of the inaugural cohort of the Physical Therapist Assistant (PTA) program, earning his PTA degree in 2021. He went on to work locally as a PTA, where he recognized the growing need for additional providers in the field. Motivated to meet that need, he pursued advanced training and completed his Doctor of Physical Therapy (DPT) degree at Hawai‘i Pacific University in 2024. His combined experience as both a PTA and a licensed physical therapist allows him to deliver comprehensive, patient-centered care.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-8"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 9,
+    "text": "Outside of his professional work, Victor enjoys spending time with his wife, their young daughter, and the family’s pet turtle. He is an outdoor enthusiast who often hikes and participates in a variety of outdoor activities. A family-oriented individual, he remains closely connected with his three brothers and his parents.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-9"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 10,
+    "text": "Victor is also deeply involved in the local soccer community. As a coach with the Mendocino County Soccer Academy (MCSA), he serves as one of the program’s goalkeeper coaches, helping young athletes develop their skills while fostering a positive and enjoyable environment.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-10"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 11,
+    "text": "Fluent in Spanish and experienced in athletics, Victor is well-equipped to work with athletes and individuals recovering from orthopedic injuries. He finds great fulfillment in helping patients manage pain, recover from injury, and improve their overall well-being. Victor is committed to one-on-one care and takes a holistic approach to treatment, ensuring each patient receives personalized support tailored to their goals.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-11"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 13,
+    "text": "Pauline Bowser",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-13"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 12,
+    "text": "PT, DPT",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-12"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 14,
+    "text": "Pauline's path to physical therapy has been anything but traditional. Originally from Sacramento, she's explored a wide range of careers and experiences - from living in France and studying the language and culture, researching plague ecology in prairie dogs in the Badlands of South Dakota, working as a veterinary technician, to indulging her love of baking along the way. These varied experiences have given her a deep appreciation for the many different ways people live, work, and move through the world, and for the many demands life can place on the body.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-14"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 15,
+    "text": "Pauline earned her Doctor of Physical Therapy from Eastern Washington University in May 2026 and chose to bring her skills back to the Mendocino community. She has a special interest in neurologic rehabilitation and enjoys working with a broad range of individuals, meeting each person where they are and building practical, individualized care around the goals and activities that matter most to them. During PT school, she also had the opportunity to share her love of rock climbing with people of all abilities through an adaptive climbing program, an experience she found especially rewarding.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-15"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 16,
+    "text": "Pauline's approach to physical therapy centers on education - understanding the \"why\" behind movement and helping people feel confident in their own bodies. She believes that truly understanding your condition and treatment plan empowers you to take an active role in your recovery. She views herself as a partner and cheerleader throughout the rehabilitation process, working alongside each patient to help them feel strong, capable, and confident at every stage of life.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-16"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 17,
+    "text": "Outside the clinic, you'll find Pauline soaking up the outdoors, weightlifting, or spending time with her husband and their four fur babies. She looks forward to getting to know you and being part of your journey toward moving, living, and feeling your best.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-17"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 19,
+    "text": "Jani Creel-Tollow",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-19"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 18,
+    "text": "PTA",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-18"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 20,
+    "text": "Jani Creel-Tollow is a Physical Therapy Assistant with a BA in Psychology from SSU. After working as a Massage Therapist in Mendocino County since August 2000, she decided to pursue a career in PT. In 2021, she graduated from Mendocino College with her PTA degree. Over the last 30 years, she has also worked as an aide in several local PT offices.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-20"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 21,
+    "text": "Married for 30 years, Jani and her husband have raised two boys and now have a grandchild whom they enjoy spoiling. Her primary hobbies include exercise, nutrition, and reading. Throughout her fitness journey, Jani has engaged in various activities such as running, weightlifting, and CrossFit, which she pursued for ten years, even working as a part-time coach for about four years. She still holds a CF-L1 trainer certification.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-21"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 22,
+    "text": "Jani finds fulfillment in working one-on-one with individuals, aiding them in their recovery from injuries and guiding them toward better health. She is enthusiastic about being part of the Mendocino Physical Therapy team.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-22"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 24,
+    "text": "Mykala Ramsey",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-24"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 23,
+    "text": "PTA",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-23"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 25,
+    "text": "Mykala Ramsey, PTA",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-25"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 26,
+    "text": "Mykala Ramsey is a native of Redwood Valley with a lifelong passion for sports, movement, and maintaining an active lifestyle. Growing up, she participated in a variety of sports, playing soccer and softball throughout high school and continuing her athletic career as a softball player at Mendocino College. She earned her Physical Therapist Assistant degree from Mendocino College and is dedicated to providing compassionate, patient-centered care.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-26"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 27,
+    "text": "Mykala’s interest in physical therapy began after experiencing a significant knee injury during high school. Through her own rehabilitation journey, she gained firsthand insight into the impact that physical therapy can have on recovery, confidence, and quality of life. This experience inspired her to pursue a career helping others achieve their rehabilitation goals.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-27"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 28,
+    "text": "Outside of the clinic, Mykala enjoys spending time with her family, exploring the surrounding mountains in her Jeep with friends, staying active, and volunteering in her church’s youth and children’s programs.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-28"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 30,
+    "text": "Shelby Sapeta",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-30"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 29,
+    "text": "PTA",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-29"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 31,
+    "text": "Shelby is a licensed Physical Therapist Assistant who graduated from the Mendocino College Physical Therapist Assistant Program in December 2024. Shelby is dedicated to delivering high-quality, patient-centered care focused on reducing pain, restoring mobility, and improving overall quality of life. She emphasizes education, individualized treatment plans, and evidence-based interventions to empower patients throughout their recovery process. Her compassionate approach fosters a supportive environment where patients feel confident, informed, and motivated to achieve lasting results.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-31"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 32,
+    "text": "In early 2026, Shelby relocated to Redwood Valley and joined the Mendocino Physical Therapy team. A lifelong athlete, she participated in basketball, softball, and volleyball, experiences that inspired her passion for health, fitness, and human movement. Her athletic background provides valuable insight into the challenges faced by individuals recovering from injuries and working toward a return to sports, work, and recreational activities.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-32"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 33,
+    "text": "Outside the clinic, Shelby enjoys spending time with family, hiking, exploring the outdoors, paddleboarding, participating in CrossFit, and baking. Her active lifestyle reflects her commitment to wellness and strengthens her passion for helping others maintain mobility, function, and an active, healthy life.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-33"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 34,
+    "text": "Get started with Mendocino Physical Therapy, today.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-34"
+  },
+  {
+    "source": "testimonials",
+    "block": 0,
+    "text": "Testimonials",
+    "disposition": "retained",
+    "target": "testimonials",
+    "id": "testimonials-0"
+  },
+  {
+    "source": "testimonials",
+    "block": 1,
+    "text": "“I am eternally grateful for the excellent treatment I received from Dr. Binns. I did not realize I could overcome my injuries and run again! Thank you sooo much!",
+    "disposition": "retained",
+    "target": "testimonials",
+    "id": "testimonials-1"
+  },
+  {
+    "source": "testimonials",
+    "block": 2,
+    "text": "Andree",
+    "disposition": "retained",
+    "target": "testimonials",
+    "id": "testimonials-2"
+  },
+  {
+    "source": "testimonials",
+    "block": 3,
+    "text": "\"This organization has kept both my wife and myself in wonderful shape for over 40 years. The type of physical therapy offered here works wonders.\"",
+    "disposition": "retained",
+    "target": "testimonials",
+    "id": "testimonials-3"
+  },
+  {
+    "source": "testimonials",
+    "block": 4,
+    "text": "Phil",
+    "disposition": "retained",
+    "target": "testimonials",
+    "id": "testimonials-4"
+  },
+  {
+    "source": "testimonials",
+    "block": 5,
+    "text": "\"I have to admit…this physical therapy on Dora is absolutely awesome! The therapist listens, understands, and is very patient. I am feeling so wonderful again… Thank you Billy!\"",
+    "disposition": "retained",
+    "target": "testimonials",
+    "id": "testimonials-5"
+  },
+  {
+    "source": "testimonials",
+    "block": 6,
+    "text": "Marsha",
+    "disposition": "retained",
+    "target": "testimonials",
+    "id": "testimonials-6"
+  },
+  {
+    "source": "testimonials",
+    "block": 7,
+    "text": "“Billy and the office staff are all wonderful and so helpful. They all work together to help their patients. I would recommend this office to anyone and I have.”",
+    "disposition": "retained",
+    "target": "testimonials",
+    "id": "testimonials-7"
+  },
+  {
+    "source": "testimonials",
+    "block": 8,
+    "text": "Pat",
+    "disposition": "retained",
+    "target": "testimonials",
+    "id": "testimonials-8"
+  },
+  {
+    "source": "testimonials",
+    "block": 9,
+    "text": "Get started with Mendocino Physical Therapy, today.",
+    "disposition": "retained",
+    "target": "testimonials",
+    "id": "testimonials-9"
+  },
+  {
+    "source": "contact-us",
+    "block": 0,
+    "text": "Contact us.",
+    "disposition": "retained",
+    "target": "contact-us",
+    "id": "contact-us-0"
+  },
+  {
+    "source": "contact-us",
+    "block": 1,
+    "text": "Phone: 707-462-9784",
+    "disposition": "retained",
+    "target": "contact-us",
+    "id": "contact-us-1"
+  },
+  {
+    "source": "contact-us",
+    "block": 2,
+    "text": "Fax: 707-313-1723",
+    "disposition": "retained",
+    "target": "contact-us",
+    "id": "contact-us-2"
+  },
+  {
+    "source": "contact-us",
+    "block": 3,
+    "text": "Office Hours: Monday - Friday 9am - 5pm",
+    "disposition": "retained",
+    "target": "contact-us",
+    "id": "contact-us-3"
+  },
+  {
+    "source": "contact-us",
+    "block": 4,
+    "text": "Dora St. Clinic 780 S Dora Street Ukiah CA 95482",
+    "disposition": "retained",
+    "target": "contact-us",
+    "id": "contact-us-4"
+  },
+  {
+    "source": "careers",
+    "block": 0,
+    "text": "Careers",
+    "disposition": "retained",
+    "target": "careers",
+    "id": "careers-0"
+  },
+  {
+    "source": "careers",
+    "block": 1,
+    "text": "We are always looking to hire great physical therapists at Mendocino Physical Therapy. In addition to great compensation packages, we want to create an accommodating environment for our employees to support varying needs including flexible schedules or the ability to follow your passion projects (coaching a team or teaching a fitness class to name a few).",
+    "disposition": "retained",
+    "target": "careers",
+    "id": "careers-1"
+  },
+  {
+    "source": "insurance",
+    "block": 0,
+    "text": "Insurance",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-0"
+  },
+  {
+    "source": "insurance",
+    "block": 1,
+    "text": "We accept most Insurance and Worke’s Compensation cases. We unfortunately are not Medi-Cal providers and do not accept Auto Accident Liens but will bill your personal auto insurance if you have available MedPay. We always as a courtesy bill your insurance for you regardless if we are contracted with your insurance or not.",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-1"
+  },
+  {
+    "source": "insurance",
+    "block": 2,
+    "text": "Some insurances we accept include:",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-2"
+  },
+  {
+    "source": "insurance",
+    "block": 3,
+    "text": "Blue Cross PPO",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-3"
+  },
+  {
+    "source": "insurance",
+    "block": 4,
+    "text": "Blue Shield PPO",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-4"
+  },
+  {
+    "source": "insurance",
+    "block": 5,
+    "text": "Cigna PPO",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-5"
+  },
+  {
+    "source": "insurance",
+    "block": 6,
+    "text": "HealthNet PPO",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-6"
+  },
+  {
+    "source": "insurance",
+    "block": 7,
+    "text": "Hawaii Mainland Admin",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-7"
+  },
+  {
+    "source": "insurance",
+    "block": 8,
+    "text": "Medicare",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-8"
+  },
+  {
+    "source": "insurance",
+    "block": 9,
+    "text": "United Healthcare",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-9"
+  },
+  {
+    "source": "insurance",
+    "block": 10,
+    "text": "UMR",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-10"
+  },
+  {
+    "source": "insurance",
+    "block": 11,
+    "text": "SutterSelect UMR PPO/EPO",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-11"
+  },
+  {
+    "source": "insurance",
+    "block": 12,
+    "text": "Cost Share Plans",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-12"
+  },
+  {
+    "source": "insurance",
+    "block": 13,
+    "text": "MedPay (not third party)",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-13"
+  },
+  {
+    "source": "faqs",
+    "block": 0,
+    "text": "Frequently Asked Questions",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-0"
+  },
+  {
+    "source": "faqs",
+    "block": 1,
+    "text": "What should I wear/bring to physical therapy?",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-1"
+  },
+  {
+    "source": "faqs",
+    "block": 2,
+    "text": "Athletic wear: Opt for clothing made of breathable, stretchable fabrics like cotton or moisture-wicking materials. This could include T-shirts, tank tops, or moisture-wicking tops, along with athletic shorts, yoga pants, or sweatpants.",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-2"
+  },
+  {
+    "source": "faqs",
+    "block": 3,
+    "text": "Supportive footwear: Choose athletic shoes with good support and stability, especially if you'll be doing exercises or activities that involve standing or walking.",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-3"
+  },
+  {
+    "source": "faqs",
+    "block": 4,
+    "text": "Layers: Depending on the temperature of the therapy environment, consider wearing layers that you can easily remove or add as needed.",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-4"
+  },
+  {
+    "source": "faqs",
+    "block": 5,
+    "text": "Avoid restrictive clothing: Steer clear of clothing that is too tight or restrictive, as it may limit your movement during therapy exercises.",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-5"
+  },
+  {
+    "source": "faqs",
+    "block": 6,
+    "text": "Consider your therapy activities: If you know you'll be doing specific exercises or activities during your session, dress accordingly. For example, if you'll be working on leg exercises, wear shorts or pants that allow for easy movement of the legs.",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-6"
+  },
+  {
+    "source": "faqs",
+    "block": 7,
+    "text": "We do offer gowns an shorts for patients",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-7"
+  },
+  {
+    "source": "faqs",
+    "block": 8,
+    "text": "Please bring any new patient paperwork and insurance cards that may apply",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-8"
+  },
+  {
+    "source": "faqs",
+    "block": 9,
+    "text": "Do I need a referral to get physical therapy treatments?",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-9"
+  },
+  {
+    "source": "faqs",
+    "block": 10,
+    "text": "Is physical therapy covered by my insurance?",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-10"
+  },
+  {
+    "source": "faqs",
+    "block": 11,
+    "text": "How long are treatment sessions?",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-11"
+  },
+  {
+    "source": "faqs",
+    "block": 12,
+    "text": "Treatment sessions are typically 1 hour for both initial evaluations and follow-up visits.",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-12"
+  },
+  {
+    "source": "faqs",
+    "block": 13,
+    "text": "How long until i notice results?",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-13"
+  },
+  {
+    "source": "faqs",
+    "block": 14,
+    "text": "The time it takes to notice results from physical therapy can vary depending on several factors, including the nature and severity of your condition or injury, your overall health and fitness level, your commitment to the prescribed exercises and treatment plan, and the expertise of your physical therapist.",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-14"
+  },
+  {
+    "source": "faqs",
+    "block": 15,
+    "text": "In some cases, you may start to feel improvement within a few sessions, experiencing reduced pain, increased range of motion, or improved strength and mobility. However, for more complex or chronic conditions, it may take several weeks or even months of consistent therapy before significant progress is achieved.",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-15"
+  },
+  {
+    "source": "faqs",
+    "block": 16,
+    "text": "It is essential to communicate regularly with your physical therapist about your progress and any changes in your symptoms. Your therapist can adjust your treatment plan accordingly to optimize your outcomes. Remember that patience and dedication to your therapy program are key factors in achieving long-term results.",
+    "disposition": "retained",
+    "target": "faqs",
+    "id": "faqs-16"
+  },
+  {
+    "source": "about-us",
+    "block": 0,
+    "text": "About Us",
+    "disposition": "retained",
+    "target": "about-us",
+    "id": "about-us-0"
+  },
+  {
+    "source": "about-us",
+    "block": 1,
+    "text": "At Mendocino Physical Therapy, we specialize in utilizing cutting-edge orthopedic manual therapy techniques and tailored exercise programs to enhance mobility and promote pain-free movement. With a hands-on approach, our dedicated team aims to address the root cause of each patient's condition, ensuring comprehensive and effective treatment. Our therapists are extensively trained in advanced manual therapy techniques, post-operative care, and geriatric rehabilitation.",
+    "disposition": "retained",
+    "target": "about-us",
+    "id": "about-us-1"
+  },
+  {
+    "source": "about-us",
+    "block": 2,
+    "text": "Our Facilities",
+    "disposition": "retained",
+    "target": "about-us",
+    "id": "about-us-2"
+  },
+  {
+    "source": "about-us",
+    "block": 3,
+    "text": "Equipped with a wide range of tools, from barbells to resistance bands, our facilities are designed to support diverse rehabilitation needs, whether you're a professional athlete or recovering from surgery. Our inviting atmosphere ensures that clients feel comfortable and supported throughout their treatment journey. With two convenient locations, we are committed to providing accessible and exceptional care to our community.",
+    "disposition": "retained",
+    "target": "about-us",
+    "id": "about-us-3"
+  },
+  {
+    "source": "book-an-appointment",
+    "block": 0,
+    "text": "Book an appointment.",
+    "disposition": "retained",
+    "target": "book-an-appointment",
+    "id": "book-an-appointment-0"
+  },
+  {
+    "source": "book-an-appointment",
+    "block": 1,
+    "text": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
+    "disposition": "excluded",
+    "reason": "Unrelated Squarespace business/creative-project template copy, replaced by accurate call-to-schedule guidance"
+  }
+]

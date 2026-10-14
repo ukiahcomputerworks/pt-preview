@@ -42,3 +42,4 @@ Recommendation: a distinctive visual system could make the prospect pitch more m
 
 ## Scope Of This Delivery
 Research, Linear structure, local scaffold and an interactive art-direction demonstrator. The full site, commissioned media, practice review, online scheduling, publication and production migration are future gates. Exactly one next action: owner reviews the local concept and records accept, revise or hold.
+

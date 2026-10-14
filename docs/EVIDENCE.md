@@ -23,3 +23,4 @@ This is initial visual/keyboard responsive QA, not a formal WCAG certification, 
 
 ## Exactly One Next Action
 Owner reviews the local Life, In Motion concept and records accept, revise or hold in COM-512.
+

@@ -1,0 +1,34 @@
+[
+  {
+    "image": "assets/media/24-tempimageifqpdx.jpg",
+    "pressed": 1,
+    "state": "sport",
+    "target": "sports-rehabilitation/",
+    "title": "Your Game. Your Comeback.",
+    "touchTargets": true
+  },
+  {
+    "image": "assets/media/03-tempimagei0xaud.jpg",
+    "pressed": 1,
+    "state": "everyday",
+    "target": "healthy-aging/",
+    "title": "Steady Steps. Full Days.",
+    "touchTargets": true
+  },
+  {
+    "image": "assets/media/21-tempimage7gkmq2.jpg",
+    "pressed": 1,
+    "state": "recovery",
+    "target": "physical-therapy-1/",
+    "title": "A New Knee. Your Own Next Chapter.",
+    "touchTargets": true
+  },
+  {
+    "image": "assets/media/22-image-asset.jpg",
+    "pressed": 1,
+    "state": "golf",
+    "target": "golf-performance/",
+    "title": "There’s More To Your Swing.",
+    "touchTargets": true
+  }
+]
