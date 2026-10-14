@@ -1,0 +1,439 @@
+{
+  "commit": "727d13066c5ca4e3b0dfd34ed626ce13fac8265b",
+  "workflowRun": 38654149383,
+  "tls": "Python default certificate validation passed for all HTTPS requests",
+  "checks": [
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/",
+      "matchesLocal": true,
+      "sha256": "afd4d5f0f796edd12362cde17d1743d9c778521fd12b1913b241c7889e7588dd",
+      "bytes": 10205,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/physical-therapy-1/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/physical-therapy-1/",
+      "matchesLocal": true,
+      "sha256": "012d163958b7d4bbfb7d0c841c186bb93f7cd071824b622878b37af07b06e438",
+      "bytes": 12449,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/functional-fitness-classes/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/functional-fitness-classes/",
+      "matchesLocal": true,
+      "sha256": "0c7ad11476887acb743e8799c8e3780798f6b30d62685e5ccec3085a3af3de49",
+      "bytes": 9186,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/golf-performance/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/golf-performance/",
+      "matchesLocal": true,
+      "sha256": "dee69dba25a9a4a888fe4403eb41589854bddc6da7fd6e61e373b70befffc04f",
+      "bytes": 5788,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/meet-the-team/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/meet-the-team/",
+      "matchesLocal": true,
+      "sha256": "b815b7e24371ce57e0509e55c6814451d26e31f75485813e66a7d38283d8bae7",
+      "bytes": 16406,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/testimonials/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/testimonials/",
+      "matchesLocal": true,
+      "sha256": "728d11c10494e947db0357213f2dbbd03070e7f2d7d74881e424f33897c20d0a",
+      "bytes": 6369,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/contact-us/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/contact-us/",
+      "matchesLocal": true,
+      "sha256": "843e1f2e7e3143bce545c32c072b93bb74f0e7a1128e5dc516bdaa50f464b38c",
+      "bytes": 5310,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/careers/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/careers/",
+      "matchesLocal": true,
+      "sha256": "53bb3d090787b19c5d766b618e90acf5c9bbf7c45df647fe521c7678c35f2497",
+      "bytes": 4768,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/insurance/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/insurance/",
+      "matchesLocal": true,
+      "sha256": "356a388d4b1b378c5f1721a7537c68afb7737f1248c904ef3bb3fdc964acb87d",
+      "bytes": 5350,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/patient-forms/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/patient-forms/",
+      "matchesLocal": true,
+      "sha256": "3cf0edf405cca615af8cac9eb7554042a2918b40088a7f3772bfb3ea0aaf3e86",
+      "bytes": 4396,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/faqs/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/faqs/",
+      "matchesLocal": true,
+      "sha256": "2b86f7ad40fb2f1388edb94e5b2861eca3fb04aa53e7c52a1c930f7089863c77",
+      "bytes": 7502,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/about-us/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/about-us/",
+      "matchesLocal": true,
+      "sha256": "dc74f06d57c460bd101e7746385f6e62d760338c51470f135c6350f3cace6029",
+      "bytes": 5517,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/book-an-appointment/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/book-an-appointment/",
+      "matchesLocal": true,
+      "sha256": "4b49aa755c6f93a774c6d48bda12edd0262cfc028cc8c185c3e0509ca9e853c7",
+      "bytes": 4600,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/sports-rehabilitation/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/sports-rehabilitation/",
+      "matchesLocal": true,
+      "sha256": "a08547f3b5cfcbeea40b5c333d6eb182a311fb9ed86579bcb435be044992310e",
+      "bytes": 5060,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/healthy-aging/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/healthy-aging/",
+      "matchesLocal": true,
+      "sha256": "801b4e59846233de3f74a7f91c6e5c9d6b5d73043e5e083c61228a1b868f2fba",
+      "bytes": 5082,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/preview-information/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/preview-information/",
+      "matchesLocal": true,
+      "sha256": "efe9b5b02e363bb3811e02f90be58294ce2c9ee11b241959851c642d9859830f",
+      "bytes": 4483,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/home/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/home/",
+      "matchesLocal": true,
+      "sha256": "5e6505411d7b9b30448f7257953015da553ede7f3fb21d51977e589a466e9f99",
+      "bytes": 229,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/physical-therapy/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/physical-therapy/",
+      "matchesLocal": true,
+      "sha256": "737d7d64c00c926955c40790550756274e78e867ca6844151a41e6ccb42ba9bf",
+      "bytes": 267,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/about/",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/about/",
+      "matchesLocal": true,
+      "sha256": "6c7e733896bd11e430b5254aff3e8e60b711d5f28379e23700cd1b5a8fa6ce29",
+      "bytes": 249,
+      "noindex": true
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/cwu-colophon.css",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/cwu-colophon.css",
+      "matchesLocal": true,
+      "sha256": "9e47c50043dcc26d140ad901475ac3018dad642ccf2fe20d810d2d2d530b41dc",
+      "bytes": 1371,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/favicon.png",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/favicon.png",
+      "matchesLocal": true,
+      "sha256": "3d935c4899cdc4906404ee94d2be80a053c04bf72a2a0d80f7575d3ca5eed4b7",
+      "bytes": 2316,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/site.js",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/site.js",
+      "matchesLocal": true,
+      "sha256": "73b6f981d2e2e2deb543a117582b6a6fb499aa9ad47dd0719a6c778beee0a909",
+      "bytes": 2803,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/style.css",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/style.css",
+      "matchesLocal": true,
+      "sha256": "c0913046291b558d7fae524b29deedd64ceacc08e4b7ff07d097c0ff460b8aca",
+      "bytes": 14245,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/01-img-1055.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/01-img-1055.jpg",
+      "matchesLocal": true,
+      "sha256": "1b3c10cd422be85b5f61ab8ce9419109791cfc13d9ebf768be1c827e2caa6183",
+      "bytes": 620232,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/02-img-4601.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/02-img-4601.jpg",
+      "matchesLocal": true,
+      "sha256": "690d8a585b107a5102f4c1482a8f99d8584946cf6da2f2ac8a0927da0e536813",
+      "bytes": 317746,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/03-tempimagei0xaud.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/03-tempimagei0xaud.jpg",
+      "matchesLocal": true,
+      "sha256": "7fdf9b8cc1f4bb295608202f2cdbe216bfd2fefa298af31bfe06d19556bfb01f",
+      "bytes": 288557,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/04-tape.png",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/04-tape.png",
+      "matchesLocal": true,
+      "sha256": "9585dd35dbba31da17a3357ed36edfa11a4fea41b51f03585095201d38a97d73",
+      "bytes": 16394,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/05-heart-dumbell.png",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/05-heart-dumbell.png",
+      "matchesLocal": true,
+      "sha256": "7906c06f93c125729169306081a793342dc8110a2e2714a926050bb6708fe34a",
+      "bytes": 16288,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/06-lungs.png",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/06-lungs.png",
+      "matchesLocal": true,
+      "sha256": "0c07cbd7ada28facaa438cc3a6314196952afc81a046825239f30a84c222a1b6",
+      "bytes": 26195,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/07-pelvis.png",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/07-pelvis.png",
+      "matchesLocal": true,
+      "sha256": "6c99f2c3d5198744b62f0e76e5119dfedaaa44194898b84dd87d1d118a010227",
+      "bytes": 27293,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/08-dumbell.png",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/08-dumbell.png",
+      "matchesLocal": true,
+      "sha256": "ba93ea8855b39db1a7a160bd733418eb136a1770bac9780c6c7856a6649f9a1e",
+      "bytes": 11130,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/09-screenshot-2024-03-20-at-4-52-47-pm.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/09-screenshot-2024-03-20-at-4-52-47-pm.jpg",
+      "matchesLocal": true,
+      "sha256": "a188108b2879fc77a3072affd9b5ed96119cceca6b8cbe5ce4458255744c1e28",
+      "bytes": 349159,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/10-img-0015-2.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/10-img-0015-2.jpg",
+      "matchesLocal": true,
+      "sha256": "8294c9d1defe705785f1d1757252195db43fa82f252605cc3e368460da440321",
+      "bytes": 129981,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/11-img-5804.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/11-img-5804.jpg",
+      "matchesLocal": true,
+      "sha256": "d972e29e4392ad39b2985f41d77ed9c56cd4ba8b5591c00058beacf22729d892",
+      "bytes": 185235,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/12-pauline-headshot.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/12-pauline-headshot.jpg",
+      "matchesLocal": true,
+      "sha256": "6ab469992d1a3f63e7ce68e5dd8f7925799b7bceb005a7ad8580c8cd1d4fecec",
+      "bytes": 187872,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/13-img-4743.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/13-img-4743.jpg",
+      "matchesLocal": true,
+      "sha256": "714039ebb5c094e5088dee4a3130599e6e3fce86b7355c46ef0af403056bb7aa",
+      "bytes": 120819,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/14-mykala-website.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/14-mykala-website.jpg",
+      "matchesLocal": true,
+      "sha256": "679fbdbb5c5b73bc104ab7acedfc8b0a45171f3ea964dbabd712c861cec4ff56",
+      "bytes": 226050,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/15-shelbywebsite.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/15-shelbywebsite.jpg",
+      "matchesLocal": true,
+      "sha256": "1103c8e9f2891f0e9ba5566f4bee0cea851909d8e41693faafd46439fc822754",
+      "bytes": 187132,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/16-gym2.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/16-gym2.jpg",
+      "matchesLocal": true,
+      "sha256": "89e9516fd823580c7bf69045b5ca42dfc54c27e48a430b73ee60bed2237dc766",
+      "bytes": 398968,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/17-testimonial-images-andree.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/17-testimonial-images-andree.jpg",
+      "matchesLocal": true,
+      "sha256": "f36d6a5902675fafcec57b0d5512df291e93d82bfbcbad5a610390ff53381915",
+      "bytes": 136509,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/18-testimonial-images-phil.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/18-testimonial-images-phil.jpg",
+      "matchesLocal": true,
+      "sha256": "5551334d9508c48c99f4a0d74775c31e48f110114ea58b40026acb0e0af50a86",
+      "bytes": 149652,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/19-testimonial-images-marsha.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/19-testimonial-images-marsha.jpg",
+      "matchesLocal": true,
+      "sha256": "e6d13d65d14c20f98f24c09625d43cbdba377c1e8281c86fbccbb4b524dc1e0c",
+      "bytes": 99368,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/20-testimonial-images-pat.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/20-testimonial-images-pat.jpg",
+      "matchesLocal": true,
+      "sha256": "bc8fc03fccfd26e56fca92f7939c412a5247edae917255c0009ae7bf1f816151",
+      "bytes": 116494,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/21-tempimage7gkmq2.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/21-tempimage7gkmq2.jpg",
+      "matchesLocal": true,
+      "sha256": "f1806177197219bdc76e4acfb4788301e3589148451201f728264aaa92aa41fd",
+      "bytes": 238063,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/22-image-asset.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/22-image-asset.jpg",
+      "matchesLocal": true,
+      "sha256": "f22396a8282f3ca2565b084062dca4664966de17b3a90cb060036235f2e2c9dc",
+      "bytes": 190354,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/23-screenshot-2024-03-20-at-4-52-47-pm.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/23-screenshot-2024-03-20-at-4-52-47-pm.jpg",
+      "matchesLocal": true,
+      "sha256": "a188108b2879fc77a3072affd9b5ed96119cceca6b8cbe5ce4458255744c1e28",
+      "bytes": 349159,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/24-tempimageifqpdx.jpg",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/24-tempimageifqpdx.jpg",
+      "matchesLocal": true,
+      "sha256": "ef376688a3888dd2c24e48040c3fbfd8330759e565a7152d162adb24b76e36bf",
+      "bytes": 293625,
+      "noindex": null
+    },
+    {
+      "url": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/mendocino-pt-logo.png",
+      "status": 200,
+      "final": "https://ukiahcomputerworks.github.io/pt-preview/assets/media/mendocino-pt-logo.png",
+      "matchesLocal": true,
+      "sha256": "5f48d0dd89f43895660eebcf115487681fb25ef79812d37a7fbcbeb47c8fed2d",
+      "bytes": 52387,
+      "noindex": null
+    }
+  ]
+}

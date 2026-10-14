@@ -4,7 +4,7 @@
   "deliveryProfile": "prospect-preview",
   "linearProject": "https://linear.app/computerworksai/project/mendocino-physical-therapy-website-redesign-and-concept-e1873bd88018",
   "workingRoot": "C:\\Users\\Admin\\OneDrive - CWU\\Apps\\Prospect-Web-Mockups\\pt-preview",
-  "lifecycle": "validating",
+  "lifecycle": "validated-preview",
   "productionAuthority": "Owner-authorized isolated GitHub Pages preview only; no practice production authority",
   "selectedModules": [
     "core-intake",
@@ -23,12 +23,12 @@
     "G1": "Pass preview scope: owner explicitly requested source content/logo migration; provenance saved, no private data; production practice/media acceptance pending",
     "G2": "Pass: 13 unique source pages, 173 source dispositions, 19 output routes, aliases and source gaps documented",
     "G3": "Pass proposed shared system across all 16 editorial pages; source logo, original photos and integrated colophon",
-    "G4": "Pass initial 48 route/viewport checks plus menu correction, keyboard goals and expanded care/bios; formal accessibility certification not claimed",
+    "G4": "Pass: 64 local and 48 live route/viewport checks, four live goal states, keyboard/focus, menu and expanded care/bios; formal certification not claimed",
     "G5": "Not applicable to collection: no active form or patient upload; disabled source message preview, existing external booking link only; no receipt claim",
     "G6": "Pass: isolated static deployment; no secrets, private data, storage, tracking or external scripts",
     "G7": "Pass noindex and preview canonical per route, local metadata/dimensions and optimized assets; production SEO not claimed",
-    "G8": "Pending exact Pages build/HTTPS/route/asset identity verification; rollback initial local commit 7c83b78",
-    "G9": "Pending published preview smoke checks and owner review; practice production acceptance separate",
+    "G8": "Pass: initial exact source 727d130 and run 38654149383 succeeded; HTTPS enforced, all19 routes and29 assets match; final source readback in COM-515/coordination release record",
+    "G9": "Pass published preview smoke checks; owner review remains open COM-512; production practice acceptance not claimed",
     "G10": "Not applicable: no reusable lesson promoted"
   },
   "exceptions": [
