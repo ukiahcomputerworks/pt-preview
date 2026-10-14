@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "projectId": "mendocino-pt-preview",
+  "deliveryProfile": "prospect-preview",
+  "linearProject": "https://linear.app/computerworksai/project/mendocino-physical-therapy-website-redesign-and-concept-e1873bd88018",
+  "workingRoot": "C:\\Users\\Admin\\OneDrive - CWU\\Apps\\Prospect-Web-Mockups\\mendocino-pt-preview",
+  "lifecycle": "awaiting-owner-review",
+  "productionAuthority": "none",
+  "selectedModules": [
+    "core-intake",
+    "design-system",
+    "static-site",
+    "accessibility",
+    "security-boundary",
+    "seo-performance",
+    "prospect-preview",
+    "evidence-learning"
+  ],
+  "gateApplicability": {
+    "G0": "Pass: exact live P-COM-33 mapped; saved AI project absent and explicitly recorded",
+    "G1": "Pass for isolated concept: public facts and original illustration only; production rights/content review pending",
+    "G2": "Pass for one-page concept; source routes inventoried; full migration deferred",
+    "G3": "Pass for proposed shared tokens/component matrix; owner design acceptance pending",
+    "G4": "Pass initial local responsive/keyboard QA: 16 state/viewport combinations, expanded rows and focus checked; formal accessibility audit and owner acceptance pending",
+    "G5": "Not applicable: no forms or data submission",
+    "G6": "Pass: no APIs, secrets, storage, tracking or external scripts",
+    "G7": "Pass concept metadata/noindex; production SEO and performance pending scope",
+    "G8": "Not applicable: no publication authorized or performed",
+    "G9": "Pending owner local concept review; post-release checks not applicable without release",
+    "G10": "Not applicable: no reusable lesson promoted"
+  },
+  "exceptions": [],
+  "evidenceRoot": "C:\\Users\\Admin\\OneDrive - CWU\\Apps\\Prospect-Web-Mockups\\mendocino-pt-preview\\evidence",
+  "updated": "2026-10-14"
+}
