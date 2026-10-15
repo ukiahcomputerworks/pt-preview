@@ -1,3 +1,5 @@
+> Historical first direction. Owner rejected its radical-design claim. See LIFE-UNPAUSED-DESIGN.md and ANTI-TEMPLATE-RESEARCH.md for the replacement.
+
 # Life, In Motion
 
 ## Creative Thesis

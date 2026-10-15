@@ -67,8 +67,9 @@
     "source": "home",
     "block": 8,
     "text": "Our Expertise",
-    "disposition": "excluded",
-    "reason": "Promoted into the shared expertise eyebrow; wording retained"
+    "disposition": "retained",
+    "target": "home",
+    "id": "home-8"
   },
   {
     "source": "home",

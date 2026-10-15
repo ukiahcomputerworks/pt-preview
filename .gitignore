@@ -2,3 +2,6 @@ __pycache__/
 evidence/*.png
 evidence/*.jpg
 source/
+
+evidence/**/*.png
+evidence/**/*.jpg

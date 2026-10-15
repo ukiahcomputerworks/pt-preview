@@ -1,4 +1,4 @@
-# Mendocino Physical Therapy: Life, In Motion
+# Mendocino Physical Therapy: Life, Unpaused
 
 Independent website preview, not the practice's production website. The owner-authorized GitHub Pages release publishes `site/` from `main` through GitHub Actions. Repository: https://github.com/ukiahcomputerworks/pt-preview . Preview: https://ukiahcomputerworks.github.io/pt-preview/ . Root `index.html` is the preserved initial local art-direction concept; `site/index.html` is the migrated website.
 
@@ -7,3 +7,5 @@ Build: `python scripts/build_site.py` (Pillow required). Validate: `python scrip
 Read `docs/CONCEPT.md` for the creative direction, `docs/RESEARCH.md` for the comparison sample, and `docs/EVIDENCE.md` for acceptance limits. Research is a bounded seven-site review including Mendocino, not an exhaustive internet census.
 
 See `docs/MIGRATION-AND-RELEASE.md` for source inventory, full content dispositions, logo provenance, publication authority, external-service boundaries and rollback. All 19 output routes retain noindex. Practice approval and production cutover remain separate.
+
+Current design and evidence: `docs/LIFE-UNPAUSED-DESIGN.md`. Research-to-inversion contract: `docs/ANTI-TEMPLATE-RESEARCH.md`. These supersede the initial art direction.

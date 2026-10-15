@@ -1,0 +1,162 @@
+[
+  {
+    "hash": "#sport",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "sport",
+    "target": "sports-rehabilitation/",
+    "touch": true,
+    "width": 1440,
+    "wordContained": true
+  },
+  {
+    "hash": "#everyday",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "everyday",
+    "target": "healthy-aging/",
+    "touch": true,
+    "width": 1440,
+    "wordContained": true
+  },
+  {
+    "hash": "#recovery",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "recovery",
+    "target": "physical-therapy-1/",
+    "touch": true,
+    "width": 1440,
+    "wordContained": true
+  },
+  {
+    "hash": "#golf",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "golf",
+    "target": "golf-performance/",
+    "touch": true,
+    "width": 1440,
+    "wordContained": true
+  },
+  {
+    "hash": "#sport",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "sport",
+    "target": "sports-rehabilitation/",
+    "touch": true,
+    "width": 768,
+    "wordContained": true
+  },
+  {
+    "hash": "#everyday",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "everyday",
+    "target": "healthy-aging/",
+    "touch": true,
+    "width": 768,
+    "wordContained": true
+  },
+  {
+    "hash": "#recovery",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "recovery",
+    "target": "physical-therapy-1/",
+    "touch": true,
+    "width": 768,
+    "wordContained": true
+  },
+  {
+    "hash": "#golf",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "golf",
+    "target": "golf-performance/",
+    "touch": true,
+    "width": 768,
+    "wordContained": true
+  },
+  {
+    "hash": "#sport",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "sport",
+    "target": "sports-rehabilitation/",
+    "touch": true,
+    "width": 390,
+    "wordContained": true
+  },
+  {
+    "hash": "#everyday",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "everyday",
+    "target": "healthy-aging/",
+    "touch": true,
+    "width": 390,
+    "wordContained": true
+  },
+  {
+    "hash": "#recovery",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "recovery",
+    "target": "physical-therapy-1/",
+    "touch": true,
+    "width": 390,
+    "wordContained": true
+  },
+  {
+    "hash": "#golf",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "golf",
+    "target": "golf-performance/",
+    "touch": true,
+    "width": 390,
+    "wordContained": true
+  },
+  {
+    "hash": "#sport",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "sport",
+    "target": "sports-rehabilitation/",
+    "touch": true,
+    "width": 320,
+    "wordContained": true
+  },
+  {
+    "hash": "#everyday",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "everyday",
+    "target": "healthy-aging/",
+    "touch": true,
+    "width": 320,
+    "wordContained": true
+  },
+  {
+    "hash": "#recovery",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "recovery",
+    "target": "physical-therapy-1/",
+    "touch": true,
+    "width": 320,
+    "wordContained": true
+  },
+  {
+    "hash": "#golf",
+    "overflow": false,
+    "pressed": 1,
+    "scene": "golf",
+    "target": "golf-performance/",
+    "touch": true,
+    "width": 320,
+    "wordContained": true
+  }
+]

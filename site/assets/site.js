@@ -1,19 +1,24 @@
 'use strict';
-const goals={
- sport:{kicker:'01 / Back To Sport',title:'Your Game. Your Comeback.',copy:'Recovering from a sports injury or an ACL injury? Talk with the team about your goals, your sport and where you want to go next.',link:'sports-rehabilitation/',label:'Explore Sports Rehabilitation ↗',image:'assets/media/24-tempimageifqpdx.jpg',alt:'Hands-on physical therapy pictured on the practice website',path:'M55 380C210 380 235 300 355 330S550 380 700 235'},
- everyday:{kicker:'02 / Everyday Confidence',title:'Steady Steps. Full Days.',copy:'Walking, balance, everyday strength and feeling more confident in your movement. Explore one-on-one care and fitness opportunities at every stage of life.',link:'healthy-aging/',label:'Explore Everyday Confidence ↗',image:'assets/media/03-tempimagei0xaud.jpg',alt:'Strength and mobility pictured on the practice website',path:'M55 380C190 380 200 300 320 320S530 380 700 250'},
- recovery:{kicker:'03 / After Surgery',title:'A New Knee. Your Own Next Chapter.',copy:'Your recovery goals are personal. The practice offers postoperative rehabilitation with individualized attention, hands-on care and exercise.',link:'physical-therapy-1/',label:'Explore Physical Therapy ↗',image:'assets/media/21-tempimage7gkmq2.jpg',alt:'Individual physical therapy pictured on the practice website',path:'M55 400C170 400 240 360 350 350S530 320 700 260'},
- golf:{kicker:'04 / A Full Round',title:'There’s More To Your Swing.',copy:'A body screen, swing analysis and a personalized corrective exercise program connect golf performance with the way you move.',link:'golf-performance/',label:'Explore Golf Performance ↗',image:'assets/media/22-image-asset.jpg',alt:'Golf photograph from the practice website',path:'M55 380C230 380 250 70 465 75S700 240 520 350'}
+// Editorial navigation only. No diagnosis, storage, data collection or autoplay.
+const destinations={
+ sport:{word:'Play.',kicker:'01 / Back To Sport',title:'A Way Back To Your Game.',copy:'An ACL injury or a sports setback brings its own questions. Explore the practice’s sports rehabilitation and meet the people behind your care.',link:'sports-rehabilitation/',label:'Explore Sports Care ↗'},
+ everyday:{word:'Everyday.',kicker:'02 / Everyday Independence',title:'The Small Stuff Is Big Stuff.',copy:'Walking, balance, getting through your day. Explore one-on-one care and mobility options with your own starting point in mind.',link:'healthy-aging/',label:'Explore Everyday Care ↗'},
+ recovery:{word:'Next.',kicker:'03 / Life After Surgery',title:'A New Knee. A Chapter Of Your Own.',copy:'Postoperative rehabilitation starts with your needs and goals. Find the practice’s care information, then plan a conversation with the office.',link:'physical-therapy-1/',label:'Explore Postoperative Care ↗'},
+ golf:{word:'Swing.',kicker:'04 / A Full Round',title:'The Next Round Starts With You.',copy:'Explore the practice’s TPI body screen, swing analysis and personalized corrective exercise program, with golf-specific movement in view.',link:'golf-performance/',label:'Explore Golf Performance ↗'}
 };
-document.querySelectorAll('[data-goal]').forEach(button=>button.addEventListener('click',()=>{
- const record=goals[button.dataset.goal];
- document.querySelectorAll('[data-goal]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
- document.querySelector('[data-scene]').dataset.scene=button.dataset.goal;
+function selectDestination(key,updateURL=true){
+ const record=destinations[key],board=document.querySelector('.unpause');if(!record||!board)return;
+ document.querySelectorAll('[data-goal]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.goal===key)));
+ board.dataset.scene=key;
+ document.getElementById('destination-word').textContent=record.word;
  document.getElementById('goal-kicker').textContent=record.kicker;
  document.getElementById('goal-title').textContent=record.title;
  document.getElementById('goal-copy').textContent=record.copy;
- const link=document.getElementById('goal-link');link.href=record.link;link.textContent=record.label;
- const image=document.querySelector('.goal-photo');image.src=record.image;image.alt=record.alt;
- document.getElementById('motion-path').setAttribute('d',record.path);
-}));
+ const link=document.getElementById('goal-link');link.setAttribute('href',record.link);link.textContent=record.label;
+ board.classList.remove('route-change');void board.offsetWidth;board.classList.add('route-change');
+ if(updateURL)history.replaceState(null,'','#'+key);
+}
+document.querySelectorAll('[data-goal]').forEach(button=>button.addEventListener('click',()=>selectDestination(button.dataset.goal)));
+const initial=location.hash.slice(1);if(destinations[initial])selectDestination(initial,false);
+addEventListener('hashchange',()=>{const key=location.hash.slice(1);if(destinations[key])selectDestination(key,false);});
 document.addEventListener('keydown',event=>{if(event.key==='Escape')document.querySelectorAll('.menu[open]').forEach(menu=>{menu.removeAttribute('open');menu.querySelector('summary').focus();});});

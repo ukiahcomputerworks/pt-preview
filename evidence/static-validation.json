@@ -1,15 +1,8 @@
 {
   "sourcePages": 13,
   "sourceBlocks": 173,
-  "retained": 171,
+  "retained": 172,
   "exclusions": [
-    {
-      "source": "home",
-      "block": 8,
-      "text": "Our Expertise",
-      "disposition": "excluded",
-      "reason": "Promoted into the shared expertise eyebrow; wording retained"
-    },
     {
       "source": "book-an-appointment",
       "block": 1,
