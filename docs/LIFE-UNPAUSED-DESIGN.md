@@ -1,3 +1,5 @@
+> Superseded opening: see WORKSHOP-DESIGN-REVIEW.md for the October 15 material-navigation revision. Prior evidence below is historical.
+
 # Life, Unpaused: The Replacement Direction
 October 14, 2026. This supersedes the previous Life, In Motion art direction after the owner rejected its claim of radical design. The project identity and preview address stay the same.
 

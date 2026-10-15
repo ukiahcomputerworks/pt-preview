@@ -1,0 +1,322 @@
+[
+  {
+    "focus": "",
+    "hash": "#sport",
+    "key": "sport",
+    "overflow": false,
+    "routes": [
+      "sports-rehabilitation/",
+      "physical-therapy-1/",
+      "meet-the-team/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-sport"
+    ],
+    "width": 1440,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "",
+    "hash": "#everyday",
+    "key": "everyday",
+    "overflow": false,
+    "routes": [
+      "healthy-aging/",
+      "functional-fitness-classes/",
+      "physical-therapy-1/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-everyday"
+    ],
+    "width": 1440,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "",
+    "hash": "#recovery",
+    "key": "recovery",
+    "overflow": false,
+    "routes": [
+      "physical-therapy-1/",
+      "faqs/",
+      "insurance/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-recovery"
+    ],
+    "width": 1440,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "",
+    "hash": "#golf",
+    "key": "golf",
+    "overflow": false,
+    "routes": [
+      "golf-performance/",
+      "meet-the-team/",
+      "contact-us/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-golf"
+    ],
+    "width": 1440,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "",
+    "hash": "#sport",
+    "key": "sport",
+    "overflow": false,
+    "routes": [
+      "sports-rehabilitation/",
+      "physical-therapy-1/",
+      "meet-the-team/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-sport"
+    ],
+    "width": 768,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "",
+    "hash": "#everyday",
+    "key": "everyday",
+    "overflow": false,
+    "routes": [
+      "healthy-aging/",
+      "functional-fitness-classes/",
+      "physical-therapy-1/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-everyday"
+    ],
+    "width": 768,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "",
+    "hash": "#recovery",
+    "key": "recovery",
+    "overflow": false,
+    "routes": [
+      "physical-therapy-1/",
+      "faqs/",
+      "insurance/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-recovery"
+    ],
+    "width": 768,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "",
+    "hash": "#golf",
+    "key": "golf",
+    "overflow": false,
+    "routes": [
+      "golf-performance/",
+      "meet-the-team/",
+      "contact-us/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-golf"
+    ],
+    "width": 768,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "guide-title-sport",
+    "hash": "#sport",
+    "key": "sport",
+    "overflow": false,
+    "routes": [
+      "sports-rehabilitation/",
+      "physical-therapy-1/",
+      "meet-the-team/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-sport"
+    ],
+    "width": 390,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "guide-title-everyday",
+    "hash": "#everyday",
+    "key": "everyday",
+    "overflow": false,
+    "routes": [
+      "healthy-aging/",
+      "functional-fitness-classes/",
+      "physical-therapy-1/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-everyday"
+    ],
+    "width": 390,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "guide-title-recovery",
+    "hash": "#recovery",
+    "key": "recovery",
+    "overflow": false,
+    "routes": [
+      "physical-therapy-1/",
+      "faqs/",
+      "insurance/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-recovery"
+    ],
+    "width": 390,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "guide-title-golf",
+    "hash": "#golf",
+    "key": "golf",
+    "overflow": false,
+    "routes": [
+      "golf-performance/",
+      "meet-the-team/",
+      "contact-us/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-golf"
+    ],
+    "width": 390,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "guide-title-sport",
+    "hash": "#sport",
+    "key": "sport",
+    "overflow": false,
+    "routes": [
+      "sports-rehabilitation/",
+      "physical-therapy-1/",
+      "meet-the-team/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-sport"
+    ],
+    "width": 320,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "guide-title-everyday",
+    "hash": "#everyday",
+    "key": "everyday",
+    "overflow": false,
+    "routes": [
+      "healthy-aging/",
+      "functional-fitness-classes/",
+      "physical-therapy-1/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-everyday"
+    ],
+    "width": 320,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "guide-title-recovery",
+    "hash": "#recovery",
+    "key": "recovery",
+    "overflow": false,
+    "routes": [
+      "physical-therapy-1/",
+      "faqs/",
+      "insurance/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-recovery"
+    ],
+    "width": 320,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  },
+  {
+    "focus": "guide-title-golf",
+    "hash": "#golf",
+    "key": "golf",
+    "overflow": false,
+    "routes": [
+      "golf-performance/",
+      "meet-the-team/",
+      "contact-us/"
+    ],
+    "touch": true,
+    "visibleGuides": [
+      "guide-golf"
+    ],
+    "width": 320,
+    "expanded": {
+      "open": true,
+      "overflow": false
+    }
+  }
+]

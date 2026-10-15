@@ -1,0 +1,32 @@
+[
+  {
+    "art": "url(\"http://127.0.0.1:18744/assets/media/movement-workshop.webp\")",
+    "guide": 253.9479217529297,
+    "objects": 385.125,
+    "page": 2071,
+    "people": 338.8958435058594,
+    "reference": 200,
+    "width": 1440,
+    "workshop": 680.8125
+  },
+  {
+    "art": "url(\"http://127.0.0.1:18744/assets/media/movement-workshop.webp\")",
+    "guide": 439.0208435058594,
+    "objects": 512.5208740234375,
+    "page": 3011,
+    "people": 505.0833435058594,
+    "reference": 316.9375,
+    "width": 390,
+    "workshop": 836.3333740234375
+  },
+  {
+    "art": "url(\"http://127.0.0.1:18744/assets/media/movement-workshop.webp\")",
+    "guide": 428.4166870117187,
+    "objects": 556.7708740234375,
+    "page": 3232,
+    "people": 524.3958740234375,
+    "reference": 316.9375,
+    "width": 320,
+    "workshop": 921.3854370117188
+  }
+]

@@ -1,0 +1,63 @@
+/* Material wayfinding: sculptural destinations and useful field guides. */
+:root{--paper:#f8f5ef;--green:#162d29;--gold:#e6bc67;--signal:#e5ac84;--display:'Arial Black',Arial,sans-serif}
+h1,h2{font-weight:800;letter-spacing:-.045em}[hidden]{display:none!important}
+.workshop{border-top:1px solid var(--line)}
+.workshop-intro{display:grid;grid-template-columns:1.18fr 1fr;gap:24px;align-items:end;padding:24px 0 18px}
+.workshop-intro .eyebrow{font-size:11px;margin-bottom:12px}
+.workshop h1{font:800 clamp(44px,5.6vw,78px)/1.02 Arial,sans-serif;letter-spacing:-.065em;margin:0}
+.workshop h1 em{font:italic 500 1.13em/.98 Georgia,serif;letter-spacing:-.065em;color:#9c3d26}
+.workshop-manifesto{position:relative;padding-left:118px}
+.workshop-manifesto>p{font-size:17px;line-height:1.55;margin:0 0 12px;max-width:48ch}
+.workshop-manifesto>.workshop-services{font-size:11px;font-weight:700;letter-spacing:.035em;margin-bottom:0}
+.workshop-seal{position:absolute;left:0;top:4px;display:grid;align-content:center;text-align:center;width:96px;aspect-ratio:1;border:1px solid #9c3d26;border-radius:50%;font:700 12px/1.4 Arial,sans-serif;transform:rotate(-12deg);color:#9c3d26;box-shadow:inset 0 0 0 5px var(--paper),inset 0 0 0 6px #9c3d26}
+.workshop-toolbar{display:flex;justify-content:space-between;align-items:baseline;gap:16px;border-top:1px solid var(--line);padding:12px 0 4px}
+.workshop-toolbar h2{font:700 17px/1.4 Arial,sans-serif;letter-spacing:-.02em;margin:0}
+.workshop-toolbar>span{font-size:11px;letter-spacing:.05em;font-weight:700}
+.object-gateways{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:0 0 8px;background-image:linear-gradient(#162d2908 1px,transparent 1px),linear-gradient(90deg,#162d2908 1px,transparent 1px);background-size:28px 28px}
+.object-gateway{position:relative;min-width:0;padding:12px 4px 0;background:transparent;color:var(--green);border:0;display:flex;flex-direction:column;align-items:center;text-align:left;isolation:isolate}
+.object-gateway:before{content:'';position:absolute;left:12%;right:12%;bottom:100px;border-bottom:1px solid var(--line);z-index:-1}
+.object-art{display:block;width:min(85%,196px);aspect-ratio:543/724;background-image:url('media/movement-workshop.webp');background-size:400% 100%;background-repeat:no-repeat;background-position:0% 50%;transition:transform .25s ease;transform-origin:center bottom}
+.porch .object-art{background-position:33.3333% 50%}.hinge .object-art{background-position:66.6667% 50%}.green .object-art{background-position:100% 50%}
+.object-label{display:grid;grid-template-columns:auto 1fr;gap:0 8px;align-items:baseline;align-self:stretch;border-top:2px solid var(--green);padding:10px 4px 8px;position:relative}
+.object-index{font:11px/1.4 'Courier New',monospace;grid-row:1/4;align-self:start;padding-top:5px}
+.object-label strong{font:800 clamp(21px,2.1vw,29px)/1.2 Arial,sans-serif;letter-spacing:-.05em}
+.object-label small{font:400 13px/1.5 Arial,sans-serif;margin:5px 0 8px}
+.open-guide{font:700 11px/1.5 Arial,sans-serif;text-transform:uppercase;letter-spacing:.07em;display:flex;justify-content:space-between;gap:8px}
+.object-gateway:hover .object-art{transform:translateY(-7px) rotate(-2deg)}
+.object-gateway:hover .open-guide{text-decoration:underline;text-underline-offset:4px}
+.object-gateway[aria-pressed=true] .object-label{background:var(--green);color:var(--paper);box-shadow:4px 4px 0 #c68f62}
+.object-gateway[aria-pressed=true] .object-art{transform:translateY(-5px)}
+.object-gateway:focus-visible{outline:3px solid #9c3d26;outline-offset:4px}
+.art-caption{font-size:10px;color:var(--muted);text-align:right;letter-spacing:.035em;margin:0 0 10px}
+.guide-dock{background:var(--green);color:var(--paper);border-top:5px solid #c68f62;position:relative;box-shadow:0 3px 0 #162d2922}
+.field-guide{display:grid;grid-template-columns:.85fr 1.15fr;gap:30px;padding:20px 24px;scroll-margin-top:14px}
+.guide-intro .eyebrow{font-size:10px;color:#e9bc8f;margin-bottom:10px}
+.guide-intro h2{font:700 29px/1.1 Arial,sans-serif;letter-spacing:-.04em;max-width:23ch;margin-bottom:12px}
+.guide-intro>p:not(.eyebrow){font-size:16px;line-height:1.6;max-width:48ch;margin-bottom:8px;color:#e3e8df}
+.change-destination{font-size:12px;font-weight:700;display:inline-flex;align-items:center;min-height:44px;color:#e9bc8f}
+.guide-routes,.guide-overview-links{display:block}
+.guide-routes>a,.guide-overview-links>a{display:flex;align-items:center;gap:12px;text-decoration:none;padding:10px 0;border-bottom:1px solid #f8f5ef44;min-height:54px}
+.guide-routes>a:first-child,.guide-overview-links>a:first-child{padding-top:0}
+.guide-routes>a>span:last-child{margin-left:auto;font-size:23px}
+.guide-route-number{font:12px 'Courier New',monospace;color:#e9bc8f;align-self:flex-start;margin-top:5px}
+.guide-routes strong{font:700 17px/1.3 Arial,sans-serif;display:block}
+.guide-routes small{display:block;font:400 14px/1.5 Arial,sans-serif;color:#d0dbd1;margin-top:4px}
+.guide-routes a:hover,.guide-overview-links a:hover,.guide-dock a:hover{color:#e9bc8f}
+.guide-dock :focus-visible{outline-color:#e9bc8f}
+.guide-overview-links>a{display:block;padding:12px 0}
+.guide-overview-links span{display:block;font:11px/1.4 Arial,sans-serif;letter-spacing:.05em;color:#d0dbd1;margin-bottom:4px}
+.guide-overview-links strong{font:700 18px/1.4 Arial,sans-serif}
+.conversation-note{border-bottom:1px solid #f8f5ef44;margin-top:8px}
+.conversation-note summary{font:700 14px/1.5 Arial,sans-serif;display:flex;justify-content:space-between;gap:8px;align-items:center;list-style:none;cursor:pointer;min-height:48px;color:#e9bc8f}
+.conversation-note summary>span{font-size:20px}.conversation-note[open] summary>span{transform:rotate(45deg)}
+.conversation-note>div{padding:0 0 12px}.conversation-note p{font:18px/1.5 Georgia,serif;margin-bottom:8px;max-width:48ch}
+.conversation-note a{font-size:13px;font-weight:700;display:inline-flex;align-items:center;min-height:44px;margin-right:16px}
+.no-script-choices{display:flex;gap:16px;flex-wrap:wrap;padding:12px 0}
+.real-people h2,.reference-heading h2{font-size:32px}
+.visit-strip h2{font-size:32px}.visit-strip>a{font:700 27px/1.3 Arial,sans-serif}
+@media(max-width:1050px){.workshop-manifesto{padding-left:0}.workshop-seal{display:none}.workshop-intro{grid-template-columns:1.2fr 1fr}.object-gateways{gap:14px}.object-label{gap:0 6px}.object-label strong{font-size:23px}.object-label small{font-size:12px}.field-guide{gap:24px}.guide-intro h2{font-size:27px}}
+@media(max-width:760px){.workshop-intro{grid-template-columns:1fr;gap:16px;padding:18px 0 16px}.workshop h1{font-size:clamp(41px,8.4vw,62px)}.workshop h1 br{display:none}.workshop h1 em{display:block}.workshop-manifesto>p{font-size:16px;margin-bottom:8px}.workshop-manifesto>p br{display:none}.workshop-manifesto>.workshop-services{font-size:10px}.workshop-toolbar{align-items:flex-start;gap:8px}.workshop-toolbar h2{font-size:16px;max-width:17ch}.workshop-toolbar>span{font-size:9px;max-width:12ch;text-align:right}.object-gateways{grid-template-columns:repeat(2,1fr);gap:8px 16px;background-size:22px 22px}.object-gateway{padding:8px 0 0}.object-art{width:min(80%,132px)}.object-label{padding:8px 2px 6px;gap:0 4px}.object-index{font-size:9px;padding-top:5px}.object-label strong{font-size:22px}.object-label small{font-size:11px;line-height:1.45;margin:4px 0 8px}.open-guide{font-size:9px;letter-spacing:.04em}.art-caption{font-size:9px;text-align:left;margin:4px 0 10px}.field-guide{grid-template-columns:1fr;gap:12px;padding:18px}.guide-intro h2{font-size:29px;max-width:23ch}.guide-intro h2 br{display:none}.guide-intro>p:not(.eyebrow){font-size:16px}.guide-overview-links>a{padding:10px 0}.guide-routes strong{font-size:17px}.guide-routes small{font-size:14px}.guide-routes>a{padding:12px 0}.conversation-note summary{font-size:14px}.real-people h2,.reference-heading h2{font-size:30px}.visit-strip h2{font-size:30px}.visit-strip>a{font-size:26px}}
+@media(max-width:360px){.workshop h1{font-size:40px}.object-gateways{gap:8px 12px}.object-art{width:85%}.object-label strong{font-size:19px}.object-label small{font-size:10px}.object-index{font-size:8px}.open-guide{font-size:8px}.field-guide{padding:16px}.guide-intro h2{font-size:26px}}
+@media(prefers-reduced-motion:reduce){.object-gateway:hover .object-art,.object-gateway[aria-pressed=true] .object-art{transform:none}}
+@media(max-width:760px){.object-index{display:none}.object-label{grid-template-columns:1fr}.object-label strong{font-size:21px;letter-spacing:-.04em}.object-label small{font-size:12px}.object-art{width:min(74%,116px)}.workshop-toolbar h2{max-width:none}.workshop-toolbar>span{display:none}.open-guide{font-size:10px}.workshop h1 br{display:block}.workshop-manifesto br:after{content:' '}.object-gateway:before{bottom:88px}}
+@media(max-width:360px){.object-label strong{font-size:19px}.object-label small{font-size:12px}.object-art{width:80%}.object-label{padding-bottom:6px}}

@@ -9,3 +9,5 @@ Read `docs/CONCEPT.md` for the creative direction, `docs/RESEARCH.md` for the co
 See `docs/MIGRATION-AND-RELEASE.md` for source inventory, full content dispositions, logo provenance, publication authority, external-service boundaries and rollback. All 19 output routes retain noindex. Practice approval and production cutover remain separate.
 
 Current design and evidence: `docs/LIFE-UNPAUSED-DESIGN.md`. Research-to-inversion contract: `docs/ANTI-TEMPLATE-RESEARCH.md`. These supersede the initial art direction.
+
+Current design: [Movement Workshop Critique & Implementation](docs/WORKSHOP-DESIGN-REVIEW.md). Custom art provenance and exact prompt: [WORKSHOP-ART-PROVENANCE.md](docs/WORKSHOP-ART-PROVENANCE.md).
