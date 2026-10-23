@@ -3,7 +3,7 @@
 const goalButtons=[...document.querySelectorAll('[data-goal]')];
 function selectDestination(key,updateURL=true,fromAction=false){
  const button=goalButtons.find(item=>item.dataset.goal===key);if(!button)return;
- goalButtons.forEach(item=>{const chosen=item===button;item.setAttribute('aria-pressed',String(chosen));item.querySelector('.open-guide').innerHTML=chosen?'Guide Open <span aria-hidden="true">↓</span>':'Open Guide <span aria-hidden="true">↗</span>';});
+ goalButtons.forEach(item=>{const chosen=item===button;item.setAttribute('aria-pressed',String(chosen));item.querySelector('.open-guide').textContent=chosen?'Guide Open':'Open Guide';});
  document.querySelectorAll('.field-guide').forEach(panel=>{panel.hidden=panel.id!==button.getAttribute('aria-controls');});
  const panel=document.getElementById(button.getAttribute('aria-controls'));
  document.querySelector('.guide-dock').dataset.destination=key;
