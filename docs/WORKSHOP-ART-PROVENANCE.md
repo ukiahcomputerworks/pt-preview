@@ -1,6 +1,10 @@
 # Movement Workshop Artwork
 
-## Destination Scene Buttons — October 25, 2026
+## Whole-Card Controls — October 25, 2026
+
+The separate generated scene buttons below were rejected and removed. Each original miniature object, title and subtitle now forms one large native button. No generated button artwork is deployed. The four full-bleed Nano Banana 2.1 scenes remain an unselected comparison concept only at `evidence/nano-banana-full-scene-concept.png`; they were not incorporated into the site.
+
+## Superseded Destination Scene Buttons — October 25, 2026
 
 The repeated blank plaque was rejected. Four separate transparent scene controls now match the four homepage destinations: court/athletic comeback, porch/everyday mobility, stepping levels/open doorway after surgery, and a contoured putting green. The built-in `image_gen` tool created each original asset independently; no Rinehart image was supplied to or reused by the generator. Live HTML supplies the readable label. Every prompt prohibited text, numbers, arrows and chevrons.
 

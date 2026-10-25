@@ -125,14 +125,12 @@ def special(key):
 def write(key,body):
  prefix='' if key=='home' else '../';path=OUT/'index.html' if key=='home' else OUT/key/'index.html';path.parent.mkdir(parents=True,exist_ok=True)
  title=TITLES.get(key,'About This Preview');desc=DESCS.get(key,title+' at Mendocino Physical Therapy. Independent website preview in Ukiah, California.')
- html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-scene-buttons-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-scene-buttons-1"><script src="{prefix}assets/workshop.js?v=20261025-scene-buttons-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
+ html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-whole-card-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-whole-card-1"><script src="{prefix}assets/workshop.js?v=20261025-whole-card-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
  path.write_text(html,encoding='utf-8')
 def main():
  OUT.mkdir(exist_ok=True);(OUT/'assets/media').mkdir(parents=True,exist_ok=True)
  for a in DATA['media']:shutil.copy2(ROOT/a['file'],OUT/a['file'])
  shutil.copy2(ROOT/'assets/media/movement-workshop.webp',OUT/'assets/media/movement-workshop.webp')
- for scene in ['sport','everyday','recovery','golf']:
-  shutil.copy2(ROOT/f'assets/media/guide-{scene}.webp',OUT/f'assets/media/guide-{scene}.webp')
  for file in ['style.css','workshop.css','workshop.js','cwu-colophon.css']:shutil.copy2(ROOT/'assets'/file,OUT/'assets'/file)
  Image.open(ROOT/'assets/media/mendocino-pt-logo.png').crop((0,0,265,333)).resize((64,80)).save(OUT/'assets/favicon.png')
  for key in TITLES:
