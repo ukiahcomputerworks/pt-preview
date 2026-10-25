@@ -10,7 +10,7 @@ PAGES={urlsplit(p['url']).path.strip('/') or 'home':p for p in DATA['pages']}
 CANON='https://ukiahcomputerworks.github.io/pt-preview/'
 TITLES={'home':'Life, Unpaused','physical-therapy-1':'Physical Therapy','functional-fitness-classes':'Fitness & Mobility','golf-performance':'Golf Performance','meet-the-team':'Meet The Team','testimonials':'Patient Stories','contact-us':'Contact Us','careers':'Careers','insurance':'Insurance','patient-forms':'Patient Forms','faqs':'Your Questions','about-us':'About The Practice','book-an-appointment':'Plan Your First Visit','sports-rehabilitation':'Back To Sport','healthy-aging':'Everyday Confidence'}
 DESCS={'home':'One-on-one physical therapy, fitness and golf performance in Ukiah. A distinctive independent website preview.','sports-rehabilitation':'Your sport, your goals. Explore personalized sports injury rehabilitation at Mendocino Physical Therapy.','healthy-aging':'Your everyday movement matters. Explore geriatric care, postoperative rehabilitation, balance and fitness in Ukiah.'}
-STREET_VIEW="https://www.google.com/maps/@?api=1&map_action=pano&pano=AG1Hh8c9mdA4ztphYSrGeA&heading=237&pitch=0&fov=65"
+STREET_VIEW='https://www.google.com/maps/@39.1428379,-123.2109198,195a,75y,208.53h,93.86t/data=!3m7!1e1!3m5!1s63T1IYwaiUozUyslu1HX7Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3.8591352082990795%26panoid%3D63T1IYwaiUozUyslu1HX7Q%26yaw%3D208.53061980096456!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D'
 MIGRATION=[]
 def e(s):return escape(s,quote=True)
 def tc(s):
