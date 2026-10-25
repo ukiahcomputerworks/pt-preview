@@ -10,6 +10,7 @@ PAGES={urlsplit(p['url']).path.strip('/') or 'home':p for p in DATA['pages']}
 CANON='https://ukiahcomputerworks.github.io/pt-preview/'
 TITLES={'home':'Life, Unpaused','physical-therapy-1':'Physical Therapy','functional-fitness-classes':'Fitness & Mobility','golf-performance':'Golf Performance','meet-the-team':'Meet The Team','testimonials':'Patient Stories','contact-us':'Contact Us','careers':'Careers','insurance':'Insurance','patient-forms':'Patient Forms','faqs':'Your Questions','about-us':'About The Practice','book-an-appointment':'Plan Your First Visit','sports-rehabilitation':'Back To Sport','healthy-aging':'Everyday Confidence'}
 DESCS={'home':'One-on-one physical therapy, fitness and golf performance in Ukiah. A distinctive independent website preview.','sports-rehabilitation':'Your sport, your goals. Explore personalized sports injury rehabilitation at Mendocino Physical Therapy.','healthy-aging':'Your everyday movement matters. Explore geriatric care, postoperative rehabilitation, balance and fitness in Ukiah.'}
+STREET_VIEW="https://www.google.com/maps/@?api=1&map_action=pano&pano=AG1Hh8c9mdA4ztphYSrGeA&heading=237&pitch=0&fov=65"
 MIGRATION=[]
 def e(s):return escape(s,quote=True)
 def tc(s):
@@ -28,7 +29,10 @@ def block(key,i,tag=None):
  # Repeated source page labels remain in the migration map and accessible document,
  # without competing visually with the new page title.
  hidden=' class="sr-only"' if i==0 and key in {'physical-therapy-1','meet-the-team','testimonials','faqs','about-us','insurance','careers','contact-us','book-an-appointment'} else ''
- return f'<{tag}{hidden} data-source="{key}-{i}">{e(value)}</{tag}>'
+ formatted=e(value)
+ for address in ['780 S Dora St, Ukiah CA 95482','780 S Dora Street Ukiah CA 95482']:
+  formatted=formatted.replace(e(address),f'<a href="{e(STREET_VIEW)}" aria-label="View The Office From Dora Street In Google Street View">{e(address)}</a>')
+ return f'<{tag}{hidden} data-source="{key}-{i}">{formatted}</{tag}>'
 def excluded(key,i,reason):MIGRATION.append({'source':key,'block':i,'text':PAGES[key]['blocks'][i]['text'],'disposition':'excluded','reason':reason})
 def header(key,prefix):
  nav=[('physical-therapy-1','Care'),('meet-the-team','People'),('contact-us','Visit')]
@@ -36,7 +40,7 @@ def header(key,prefix):
  menu=''.join(link(r,t,'menu-link'+(' active' if key==r else ''),prefix) for r,t in TITLES.items() if r not in ['home'])
  return f'''<a class="skip" href="#main">Skip To Content</a><div class="concept-note">Independent Website Preview · Life, Unpaused</div><div class="wrap"><header><a class="brand" href="{prefix}index.html" aria-label="Mendocino Physical Therapy home">{img('assets/media/mendocino-pt-logo.png','Mendocino Physical Therapy',prefix=prefix,loading='eager')}</a><nav aria-label="Main navigation">{navhtml}<details class="menu"><summary>Explore <span aria-hidden="true">+</span></summary><div class="menu-panel">{menu}</div></details><a class="call" href="tel:+17074629784">Call The Office</a></nav></header>'''
 def footer(prefix):
- return f'''<footer><div class="footer-directory"><div><strong>Mendocino Physical Therapy</strong><p>780 S Dora Street, Ukiah, CA 95482<br>Office: <a href="tel:+17074629784">707-462-9784</a> · Fax: 707-313-1723<br>Monday–Friday, 9am–5pm</p></div><div>{link('insurance','Insurance',prefix=prefix)}{link('faqs','FAQs',prefix=prefix)}{link('patient-forms','Patient Forms',prefix=prefix)}{link('careers','Careers',prefix=prefix)}</div><div><a href="https://www.instagram.com/mendocinopt">Instagram</a><a href="https://www.facebook.com/mendocinopt.org/">Facebook</a>{link('preview-information','About This Preview',prefix=prefix)}</div></div><div class="footer-base"><span>Copyright © 2024 Mendocino Physical Therapy<br>All Rights Reserved.</span></div></footer>'''
+ return f'''<footer><div class="footer-directory"><div><strong>Mendocino Physical Therapy</strong><p><a href="{e(STREET_VIEW)}" aria-label="View 780 S Dora Street, Ukiah, CA 95482 In Google Street View From Dora">780 S Dora Street, Ukiah, CA 95482</a><br>Office: <a href="tel:+17074629784">707-462-9784</a> · Fax: 707-313-1723<br>Monday–Friday, 9am–5pm</p></div><div>{link('insurance','Insurance',prefix=prefix)}{link('faqs','FAQs',prefix=prefix)}{link('patient-forms','Patient Forms',prefix=prefix)}{link('careers','Careers',prefix=prefix)}</div><div><a href="https://www.instagram.com/mendocinopt">Instagram</a><a href="https://www.facebook.com/mendocinopt.org/">Facebook</a>{link('preview-information','About This Preview',prefix=prefix)}</div></div><div class="footer-base"><span>Copyright © 2024 Mendocino Physical Therapy<br>All Rights Reserved.</span></div></footer>'''
 def cta(prefix):return f'<section class="visit-strip"><div><p class="eyebrow">Your Next Move</p><h2>Talk It Through.</h2><p>Appointments, classes or coverage. Call the office.</p></div><a href="tel:+17074629784">707-462-9784</a></section>'
 def pagehead(key,kicker,desc):
  return f'<div class="edition"><a href="../index.html">Life, Unpaused</a><span>Ukiah, California</span></div><section class="page-head"><p class="eyebrow">{kicker}</p><h1>{TITLES[key]}</h1><p class="lede">{desc}</p></section>'
