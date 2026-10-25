@@ -1,5 +1,14 @@
 # Movement Workshop Artwork
 
+## Generated Button Plaque — October 25, 2026
+
+Owner requested image-generated buttons inspired by Rinehart's tactile illustrated controls. New PT art uses enamel, ceramic, copper and athletic cloth details. No Rinehart image was supplied or reused. Built-in image_gen, transparent-background generation. Original retained at `C:\Users\Admin\.codex\generated_images\01a13cab-5064-7e12-91ca-e87ad2dd57c3\exec-838a334a-8470-4389-8d69-c2172d719a3b.png`. Project/deployed asset: `assets/media/workshop-button.webp` and `site/assets/media/workshop-button.webp`; 2162×727 RGBA, optimized to WebP without content editing. Labels remain real HTML; quiet dark center supports cream text. Shared call/action/guide controls use the plaque; hover, selected and keyboard focus states stay distinct. The requested top banner is removed from the shared generator; noindex and About This Preview remain.
+
+Final generation prompt:
+
+Create one premium bespoke website button background as a transparent cutout, wide 4:1 horizontal aspect ratio. A handcrafted physical wayfinding plaque for a physical therapy movement workshop, viewed straight-on orthographic, not a mockup or scene. Deep dark forest-green enamel face, softly irregular warm copper/terracotta beveled rim with realistic thickness, slim cream ceramic inset line, very small material details confined to the outermost left and right 12 percent: layered athletic cloth tape woven into a copper corner clasp on the left, curved clay and wood contour pieces on the right. Center 70 percent completely quiet uninterrupted very dark matte green, reserved for readable live HTML text. Elegant warm directional lighting, convincing tactile microtexture, subtle edge highlight, precise sculptural craft, a tiny natural shadow below. Sophisticated design-studio object, related to handmade wood and ceramic miniature sculptures. A long compact rounded rectangle with gently clipped corners, all edges fully visible. No words, no letters, no logos, no numbers, NO ARROWS or chevrons, no medical symbols, no people, no photos, no icons, no extra tiles, no background surface. Actual transparent surrounding background. This is a usable image asset for a compact button, not a picture of a button on a table. Strong dark face suitable for cream text. Deliver exactly one plaque.
+
+
 October 15, 2026. Generated with the built-in image_gen tool, default tool mode; no external Gemini/OpenClaw route was used. Owner allowed image generation within the redesign. This is original conceptual navigation artwork, not evidence of the practice, patients, clinical techniques or outcomes. It is identified as illustration on the homepage and AI-generated in About This Preview. No source/competitor photograph or logo was supplied to the generator.
 
 Generated original: `C:\Users\Admin\.codex\generated_images\01a13cab-5064-7e12-91ca-e87ad2dd57c3\exec-7637cd3f-1c22-4529-890f-ee12b745acf5.png`.

@@ -61,3 +61,17 @@ h1,h2{font-weight:800;letter-spacing:-.045em}[hidden]{display:none!important}
 @media(prefers-reduced-motion:reduce){.object-gateway:hover .object-art,.object-gateway[aria-pressed=true] .object-art{transform:none}}
 @media(max-width:760px){.object-label{grid-template-columns:1fr}.object-label strong{font-size:21px;letter-spacing:-.04em}.object-label small{font-size:12px}.object-art{width:min(74%,116px)}.workshop-toolbar h2{max-width:none}.workshop-toolbar>span{display:none}.open-guide{font-size:10px}.workshop h1 br{display:block}.workshop-manifesto br:after{content:' '}.object-gateway:before{bottom:88px}}
 @media(max-width:360px){.object-label strong{font-size:19px}.object-label small{font-size:12px}.object-art{width:80%}.object-label{padding-bottom:6px}}
+/* Generated tactile plaque; text remains selectable and accessible. */
+.call,.button-link,.open-guide,.visit-strip>a{background:transparent url('media/workshop-button.webp') center/100% 138% no-repeat;border:0;border-radius:9px;color:#fff9e9;text-shadow:0 1px 1px #000;box-shadow:none;justify-content:center;text-align:center;font-weight:700;transition:filter .18s,transform .18s;isolation:isolate}
+.call,.button-link{padding:17px 30px;min-height:58px;font-size:15px;line-height:1.3;max-width:100%;gap:0}
+.open-guide{display:flex;align-items:center;justify-content:center;min-height:54px;padding:15px 22px;margin-top:3px;font-size:14px;letter-spacing:.06em;line-height:1.4}
+.object-gateway[aria-pressed=true] .object-label{background:transparent;color:var(--green);box-shadow:none}
+.object-gateway[aria-pressed=true] .open-guide{outline:2px solid #9c3d26;outline-offset:3px}
+.object-gateway:hover .open-guide{text-decoration:none;filter:brightness(1.15)}
+.call:hover,.button-link:hover,.visit-strip>a:hover{background:transparent url('media/workshop-button.webp') center/100% 138% no-repeat;color:#fff9e9;filter:brightness(1.15);transform:translateY(-2px)}
+.visit-strip>a{display:inline-flex;align-items:center;padding:19px 32px;min-height:76px;font:700 25px/1.3 Arial,sans-serif;text-decoration:none;white-space:nowrap}
+.call:focus-visible,.button-link:focus-visible,.visit-strip>a:focus-visible{outline:3px solid var(--clay);outline-offset:5px}
+@media(max-width:760px){.call{font-size:13px;min-height:50px;padding:14px 23px}.open-guide{font-size:12px;min-height:49px;padding:13px 14px;letter-spacing:.04em}.button-link{font-size:15px}.visit-strip>a{font-size:23px;padding:18px 28px;min-height:68px}}
+@media(max-width:360px){.call{padding:14px 22px}.open-guide{font-size:12px;padding:13px 12px}.visit-strip>a{font-size:21px;padding:18px 24px}}
+
+.object-gateway:before{display:none}
