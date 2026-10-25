@@ -1,6 +1,26 @@
 # Movement Workshop Artwork
 
-## Generated Button Plaque — October 25, 2026
+## Destination Scene Buttons — October 25, 2026
+
+The repeated blank plaque was rejected. Four separate transparent scene controls now match the four homepage destinations: court/athletic comeback, porch/everyday mobility, stepping levels/open doorway after surgery, and a contoured putting green. The built-in `image_gen` tool created each original asset independently; no Rinehart image was supplied to or reused by the generator. Live HTML supplies the readable label. Every prompt prohibited text, numbers, arrows and chevrons.
+
+Generated originals, preserved at the generator destination:
+
+- Sport: `C:\Users\Admin\.codex\generated_images\01a13cab-5064-7e12-91ca-e87ad2dd57c3\exec-d264ef8d-3f4e-4301-b839-2741002c0d29.png`
+- Everyday: `C:\Users\Admin\.codex\generated_images\01a13cab-5064-7e12-91ca-e87ad2dd57c3\exec-4feceb5b-8147-43e9-95d5-9cc0d3e7974e.png`
+- Recovery: `C:\Users\Admin\.codex\generated_images\01a13cab-5064-7e12-91ca-e87ad2dd57c3\exec-7451d16e-6f58-4d32-a9fc-e3d76e327923.png`
+- Golf: `C:\Users\Admin\.codex\generated_images\01a13cab-5064-7e12-91ca-e87ad2dd57c3\exec-e4c6ab60-ad9a-4f6a-9c11-4cc8481d8e22.png`
+
+Project assets: `assets/media/guide-sport.webp`, `guide-everyday.webp`, `guide-recovery.webp`, and `guide-golf.webp`, copied to the same paths under `site/` by the builder. The generated PNGs were downscaled only and saved as quality-88 WebP; no content editing.
+
+Final prompt set used the same production constraints for each asset: `stylized-concept`; transparent wide 4:1 website action-button background; premium handcrafted diorama in wood, ceramic, cloth, copper and enamel; straight-on orthographic; all edges visible; scene details at the outer quarters; a quiet deep forest-green center reserved for live cream HTML text; warm studio light; exactly one button; no words, letters, logos, numbers, arrows, chevrons, icons, medical symbols, people or watermark. The four scene requests were:
+
+- Sport: a cropped indoor court with one white boundary line, low wood bleacher, athletic tape, and a knee-brace suggestion at the extreme sides; hopeful and kinetic.
+- Everyday: a welcoming front porch with two low wooden steps, brass handrail, garden path, potted plant and morning light; steady and lived-in.
+- Recovery: gentle floor levels leading to an open sunlit doorway, with a folded therapy strap and ceramic stepping stone at the outer edges; calm forward momentum without a clinical room, anatomy or X-ray imagery.
+- Golf: a golden-hour putting green with sculpted contours, golf ball at one outer edge, copper flag pin at the other and a thin slice of bunker texture; precise and relaxed.
+
+## Superseded Generated Button Plaque — October 25, 2026
 
 Owner requested image-generated buttons inspired by Rinehart's tactile illustrated controls. New PT art uses enamel, ceramic, copper and athletic cloth details. No Rinehart image was supplied or reused. Built-in image_gen, transparent-background generation. Original retained at `C:\Users\Admin\.codex\generated_images\01a13cab-5064-7e12-91ca-e87ad2dd57c3\exec-838a334a-8470-4389-8d69-c2172d719a3b.png`. Project/deployed asset: `assets/media/workshop-button.webp` and `site/assets/media/workshop-button.webp`; 2162×727 RGBA, optimized to WebP without content editing. Labels remain real HTML; quiet dark center supports cream text. Shared call/action/guide controls use the plaque; hover, selected and keyboard focus states stay distinct. The requested top banner is removed from the shared generator; noindex and About This Preview remain.
 
