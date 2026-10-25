@@ -47,10 +47,9 @@ h1,h2{font-weight:800;letter-spacing:-.045em}[hidden]{display:none!important}
 .guide-overview-links>a{display:block;padding:12px 0}
 .guide-overview-links span{display:block;font:11px/1.4 Arial,sans-serif;letter-spacing:.05em;color:#d0dbd1;margin-bottom:4px}
 .guide-overview-links strong{font:700 18px/1.4 Arial,sans-serif}
-.conversation-note{border-bottom:1px solid #f8f5ef44;margin-top:8px}
-.conversation-note summary{font:700 14px/1.5 Arial,sans-serif;display:flex;justify-content:space-between;gap:8px;align-items:center;list-style:none;cursor:pointer;min-height:48px;color:#e9bc8f}
-.conversation-note summary>span{font-size:20px}.conversation-note[open] summary>span{transform:rotate(45deg)}
-.conversation-note>div{padding:0 0 12px}.conversation-note p{font:18px/1.5 Georgia,serif;margin-bottom:8px;max-width:48ch}
+.conversation-note{border-top:1px solid #f8f5ef44;border-bottom:1px solid #f8f5ef44;margin-top:12px;padding:14px 0}
+.conversation-note>strong{display:block;font:700 13px/1.5 Arial,sans-serif;color:#e9bc8f;margin-bottom:6px}
+.conversation-note>div{display:flex;gap:16px;flex-wrap:wrap}.conversation-note p{font:18px/1.5 Georgia,serif;margin-bottom:8px;max-width:48ch}
 .conversation-note a{font-size:13px;font-weight:700;display:inline-flex;align-items:center;min-height:44px;margin-right:16px}
 .no-script-choices{display:flex;gap:16px;flex-wrap:wrap;padding:12px 0}
 .real-people h2,.reference-heading h2{font-size:32px}
