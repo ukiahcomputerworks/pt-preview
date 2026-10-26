@@ -140,12 +140,17 @@ def generic(key):
   if key=='careers':
    source_title=block(key,0,'h2').replace('class="sr-only"','class="sr-only" aria-hidden="true"',1);source_copy=block(key,1).replace('<p ','<p class="sr-only" aria-hidden="true" ',1)
    out+='<div class="careers-layout"><section class="careers-pitch">'+source_title+source_copy+'<p class="careers-intro">We are always looking to hire great physical therapists at Mendocino Physical Therapy.</p><h2>Room To Build Good Work.</h2><ul class="career-benefits"><li>Great compensation packages</li><li>Flexible schedules</li><li>Support for passion projects</li></ul><p class="career-note">That can include coaching a team or teaching a fitness class.</p></section><aside>'+img(media(key),'Physical therapy pictured on the careers page',prefix='../')+'</aside></div>'
+  elif key=='about-us':
+   source_title=block(key,0,'h2').replace('class="sr-only"','class="sr-only" aria-hidden="true"',1)
+   source_approach=block(key,1).replace('<p ','<p class="sr-only" aria-hidden="true" ',1)
+   source_facilities=block(key,2,'h2').replace('<h2 ','<h2 class="sr-only" aria-hidden="true" ',1)
+   source_facility_copy=block(key,3).replace('<p ','<p class="sr-only" aria-hidden="true" ',1)
+   location=f'<a href="{e(STREET_VIEW)}" aria-label="View 780 S Dora Street, Ukiah, CA 95482 In Google Street View From Dora"><span>780 S Dora Street</span><span>Ukiah, CA 95482</span></a>'
+   out+='<div class="about-layout"><section class="about-copy">'+source_title+source_approach+source_facilities+source_facility_copy+'<p class="eyebrow">How Care Comes Together</p><h2>Our Approach</h2><p>Orthopedic manual therapy and tailored exercise work together to improve mobility and support pain-free movement.</p><ul class="about-pillars"><li><strong>Hands-on care</strong><span>Advanced manual therapy shaped around the person.</span></li><li><strong>Purposeful exercise</strong><span>Movement programs matched to individual needs and goals.</span></li><li><strong>Broad experience</strong><span>Post-operative care and geriatric rehabilitation are part of the team’s training.</span></li></ul></section><aside class="about-facility">'+img(media(key),'Training and rehabilitation space at Mendocino Physical Therapy',prefix='../')+'<div><p class="eyebrow">Dora Street Clinic</p><h2>Built For Movement</h2><p>Barbells, resistance bands and other equipment support a range of rehabilitation needs in an inviting environment.</p>'+location+'<small>Call the office to confirm where your appointment will take place.</small></div></aside></div>'
   else:
    out+='<div class="editorial-body">'+source_body(key,'../')
-   if key=='about-us':out+='<aside>'+img(media(key),'The practice’s facility',prefix='../')+'</aside>'
    out+='</div>'
   if key=='insurance':out+='<p class="schedule-note">A listed insurer does not confirm your individual benefits. Call the office to check your plan and visit requirements.</p>'
-  if key=='about-us':out+='<p class="schedule-note">Call the office to confirm the location for your appointment.</p>'
  return out if key=='contact-us' else out+cta('../')
 def special(key):
  if key=='patient-forms':
@@ -160,7 +165,7 @@ def special(key):
 def write(key,body):
  prefix='' if key=='home' else '../';path=OUT/'index.html' if key=='home' else OUT/key/'index.html';path.parent.mkdir(parents=True,exist_ok=True)
  title=TITLES.get(key,'About This Preview');desc=DESCS.get(key,title+' at Mendocino Physical Therapy. Independent website preview in Ukiah, California.')
- html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-faq-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-faq-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-faq-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
+ html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-about-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-about-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-about-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
  path.write_text(html,encoding='utf-8')
 def main():
  OUT.mkdir(exist_ok=True);(OUT/'assets/media').mkdir(parents=True,exist_ok=True)
