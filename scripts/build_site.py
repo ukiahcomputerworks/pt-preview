@@ -68,9 +68,11 @@ def team():
  key='meet-the-team';bs=PAGES[key]['blocks'];out=pagehead(key,'People Who Know The Place.','Meet the people behind your care, with roots in Ukiah and the surrounding community.')+block(key,0,'h2')
  # Source credentials precede each name. Preserve all biography paragraphs, not only an excerpt.
  starts=[i for i,b in enumerate(bs) if b['tag']=='h3' and not b['text'].startswith('Get started')]
- for j,start in enumerate(starts):
-  end=starts[j+1]-1 if j+1<len(starts) else len(bs)-1
-  out+=f'<article class="person" id="person-{j+1}"><div>'+img(media(key,j),bs[start]['text'],prefix='../')+'</div><div><p class="eyebrow">Your Care Team</p>'+block(key,start,'h2')+block(key,start-1)
+ # Keep Mykala directly after Shelby while retaining each source biography and portrait.
+ order=[0,1,2,3,5,4]
+ for j,source_pos in enumerate(order):
+  start=starts[source_pos];end=starts[source_pos+1]-1 if source_pos+1<len(starts) else len(bs)-1
+  out+=f'<article class="person" id="person-{j+1}"><div>'+img(media(key,source_pos),bs[start]['text'],prefix='../')+'</div><div><p class="eyebrow">Your Care Team</p>'+block(key,start,'h2')+block(key,start-1)
   paras=list(range(start+1,end));out+=block(key,paras[0]) if paras else ''
   if len(paras)>1:out+='<details class="bio-detail"><summary>Read The Full Biography <span aria-hidden="true">+</span></summary><div>'+''.join(block(key,i) for i in paras[1:])+'</div></details>'
   out+='</div></article>'
