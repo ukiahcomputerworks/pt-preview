@@ -115,8 +115,8 @@ def fitness():
  return out+'<p class="schedule-note">Confirm current class times and the correct location before attending. Class reservations open the practice’s existing scheduling service.</p>'+cta('../')
 def golf():
  key='golf-performance';out=pagehead(key,'The Body Behind Your Swing.','Bring your movement goals to the course.')
- credential=block(key,1,'h2').replace('<h2 ','<h2 class="tpi-credential" ',1)
  source_title=block(key,0,'h2').replace('class="sr-only"','class="sr-only" aria-hidden="true"',1)
+ credential=block(key,1,'h2').replace('<h2 ','<h2 class="tpi-credential" ',1)
  out+='<div class="care-intro"><div>'+source_title+credential+block(key,2)+'</div>'+img(media(key),'Golf photograph from the practice’s golf performance page',prefix='../')+'</div>'
  out+='<section class="tpi-assessment">'+block(key,3,'h2')+'<div class="tpi-cards">'
  for heading,copy in [(4,5),(6,7),(8,9)]:out+='<article>'+block(key,heading,'h3')+block(key,copy)+'</article>'
