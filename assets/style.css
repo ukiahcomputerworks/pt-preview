@@ -17,6 +17,11 @@ body{line-height:1.5}.wrap{width:calc(100% - 24px);max-width:none}header{gap:14p
 @media(max-width:1050px){.wrap{width:calc(100% - 24px)}.brand{width:225px}}
 @media(max-width:760px){.wrap{width:calc(100% - 16px)}header{padding:6px 0}.brand{width:190px}.page-head{padding:7px 0}.page-head h1{font-size:clamp(38px,12vw,50px)}.care-intro,.program,.editorial-body,.audience-intro,.contact-grid{gap:10px;padding:8px 0}.real-people,.practice-reference{gap:10px;padding:10px 0}.person,.story{gap:12px;padding:10px 0}.visit-strip{gap:10px;padding:11px 12px;width:100%}.footer-directory{gap:8px}.footer-directory>div>a{min-height:44px;padding:8px 0}.footer-base{gap:8px}}
 
+/* Team hierarchy: compact, readable and clearly subordinate to the page title. */
+.nav-link{text-decoration:none;border-bottom:1px solid transparent}.nav-link:hover{border-bottom-color:currentColor}.nav-link.active{border-bottom-color:transparent}
+.page-meet-the-team .page-head{border-bottom:1px solid var(--line)}.page-meet-the-team .person{gap:24px;border-top-color:var(--line)}.page-meet-the-team .person h2{font-size:32px;line-height:1.08}.page-meet-the-team .credentials{font-size:14px;line-height:1.4;color:var(--muted);font-weight:700;letter-spacing:.02em;margin-bottom:8px}
+@media(max-width:760px){.page-meet-the-team .person{gap:15px}.page-meet-the-team .person h2{font-size:28px}.page-meet-the-team .credentials{font-size:13px}}
+
 /* Insurance is a compact coverage board, not a loose paragraph list. */
 .insurance-intro{display:grid;grid-template-columns:1.45fr .55fr;gap:10px;padding:8px 0 10px;border-bottom:2px solid var(--green)}
 .insurance-intro>div{background:var(--soft);padding:14px 16px}.insurance-intro h2{font-size:clamp(34px,3.7vw,55px);max-width:18ch}.insurance-intro>div>p:last-child{max-width:78ch;font-size:16px}

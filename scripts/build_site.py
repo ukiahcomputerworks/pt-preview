@@ -72,7 +72,8 @@ def team():
  order=[0,1,2,3,5,4]
  for j,source_pos in enumerate(order):
   start=starts[source_pos];end=starts[source_pos+1]-1 if source_pos+1<len(starts) else len(bs)-1
-  out+=f'<article class="person" id="person-{j+1}"><div>'+img(media(key,source_pos),bs[start]['text'],prefix='../')+'</div><div>'+block(key,start,'h2')+block(key,start-1)
+  credentials=block(key,start-1).replace('<p ','<p class="credentials" ',1)
+  out+=f'<article class="person" id="person-{j+1}"><div>'+img(media(key,source_pos),bs[start]['text'],prefix='../')+'</div><div>'+block(key,start,'h2')+credentials
   paras=list(range(start+1,end));out+=block(key,paras[0]) if paras else ''
   if len(paras)>1:out+='<details class="bio-detail"><summary>Read The Full Biography <span aria-hidden="true">+</span></summary><div>'+''.join(block(key,i) for i in paras[1:])+'</div></details>'
   out+='</div></article>'
@@ -135,7 +136,7 @@ def special(key):
 def write(key,body):
  prefix='' if key=='home' else '../';path=OUT/'index.html' if key=='home' else OUT/key/'index.html';path.parent.mkdir(parents=True,exist_ok=True)
  title=TITLES.get(key,'About This Preview');desc=DESCS.get(key,title+' at Mendocino Physical Therapy. Independent website preview in Ukiah, California.')
- html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
+ html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-team-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-team-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-team-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
  path.write_text(html,encoding='utf-8')
 def main():
  OUT.mkdir(exist_ok=True);(OUT/'assets/media').mkdir(parents=True,exist_ok=True)
