@@ -22,6 +22,10 @@ body{line-height:1.5}.wrap{width:calc(100% - 24px);max-width:none}header{gap:14p
 .page-meet-the-team .page-head{border-bottom:1px solid var(--line)}.page-meet-the-team .person{gap:24px;border-top-color:var(--line)}.page-meet-the-team .person h2{font-size:32px;line-height:1.08}.page-meet-the-team .credentials{font-size:14px;line-height:1.4;color:var(--muted);font-weight:700;letter-spacing:.02em;margin-bottom:8px}
 @media(max-width:760px){.page-meet-the-team .person{gap:15px}.page-meet-the-team .person h2{font-size:28px}.page-meet-the-team .credentials{font-size:13px}}
 
+/* Contact actions and inactive form preview share one calm, practical system. */
+.page-contact-us .contact-grid{gap:32px}.contact-fact{margin:0;padding:7px 0;border-bottom:1px solid var(--line)}.page-contact-us .contact-office>.source-copy{display:none}.contact-address{margin:10px 0 12px}.contact-address>span{display:block;font-size:13px;font-weight:700;color:var(--muted);margin-bottom:3px}.contact-address a{display:inline-flex;flex-direction:column;text-decoration:none;font-weight:700;line-height:1.45}.contact-actions{display:flex;gap:8px;flex-wrap:wrap}.contact-actions .secondary{background:transparent;color:var(--green);border-color:var(--green)}.contact-actions .secondary:hover{background:var(--soft);color:var(--green);border-color:var(--green)}.contact-preview fieldset{row-gap:12px}.contact-preview fieldset label{line-height:1.4}.contact-preview input,.contact-preview textarea{border-color:var(--line);border-radius:4px;background:#faf9f4;margin-top:6px}.contact-preview textarea{resize:vertical}
+@media(max-width:760px){.page-contact-us .contact-grid{gap:10px}.contact-actions{display:grid;grid-template-columns:1fr 1fr}.contact-actions .button-link{padding:10px 8px}}
+
 /* Insurance is a compact coverage board, not a loose paragraph list. */
 .insurance-intro{display:grid;grid-template-columns:1.45fr .55fr;gap:10px;padding:8px 0 10px;border-bottom:2px solid var(--green)}
 .insurance-intro>div{background:var(--soft);padding:14px 16px}.insurance-intro h2{font-size:clamp(34px,3.7vw,55px);max-width:18ch}.insurance-intro>div>p:last-child{max-width:78ch;font-size:16px}
