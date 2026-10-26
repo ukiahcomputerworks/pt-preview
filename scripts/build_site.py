@@ -72,8 +72,8 @@ def team():
  order=[0,1,2,3,5,4]
  for j,source_pos in enumerate(order):
   start=starts[source_pos];end=starts[source_pos+1]-1 if source_pos+1<len(starts) else len(bs)-1
-  credentials=block(key,start-1).replace('<p ','<p class="credentials" ',1)
-  out+=f'<article class="person" id="person-{j+1}"><div>'+img(media(key,source_pos),bs[start]['text'],prefix='../')+'</div><div>'+block(key,start,'h2')+credentials
+  name=block(key,start,'h2');credentials=block(key,start-1).replace('<p ','<p class="credentials" ',1)
+  out+=f'<article class="person" id="person-{j+1}"><div>'+img(media(key,source_pos),bs[start]['text'],prefix='../')+'</div><div>'+name+credentials
   paras=list(range(start+1,end));out+=block(key,paras[0]) if paras else ''
   if len(paras)>1:out+='<details class="bio-detail"><summary>Read The Full Biography <span aria-hidden="true">+</span></summary><div>'+''.join(block(key,i) for i in paras[1:])+'</div></details>'
   out+='</div></article>'
