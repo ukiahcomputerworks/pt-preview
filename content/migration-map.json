@@ -857,6 +857,46 @@
   },
   {
     "source": "meet-the-team",
+    "block": 30,
+    "text": "Shelby Sapeta",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-30"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 29,
+    "text": "PTA",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-29"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 31,
+    "text": "Shelby is a licensed Physical Therapist Assistant who graduated from the Mendocino College Physical Therapist Assistant Program in December 2024. Shelby is dedicated to delivering high-quality, patient-centered care focused on reducing pain, restoring mobility, and improving overall quality of life. She emphasizes education, individualized treatment plans, and evidence-based interventions to empower patients throughout their recovery process. Her compassionate approach fosters a supportive environment where patients feel confident, informed, and motivated to achieve lasting results.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-31"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 32,
+    "text": "In early 2026, Shelby relocated to Redwood Valley and joined the Mendocino Physical Therapy team. A lifelong athlete, she participated in basketball, softball, and volleyball, experiences that inspired her passion for health, fitness, and human movement. Her athletic background provides valuable insight into the challenges faced by individuals recovering from injuries and working toward a return to sports, work, and recreational activities.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-32"
+  },
+  {
+    "source": "meet-the-team",
+    "block": 33,
+    "text": "Outside the clinic, Shelby enjoys spending time with family, hiking, exploring the outdoors, paddleboarding, participating in CrossFit, and baking. Her active lifestyle reflects her commitment to wellness and strengthens her passion for helping others maintain mobility, function, and an active, healthy life.",
+    "disposition": "retained",
+    "target": "meet-the-team",
+    "id": "meet-the-team-33"
+  },
+  {
+    "source": "meet-the-team",
     "block": 24,
     "text": "Mykala Ramsey",
     "disposition": "retained",
@@ -902,46 +942,6 @@
     "disposition": "retained",
     "target": "meet-the-team",
     "id": "meet-the-team-28"
-  },
-  {
-    "source": "meet-the-team",
-    "block": 30,
-    "text": "Shelby Sapeta",
-    "disposition": "retained",
-    "target": "meet-the-team",
-    "id": "meet-the-team-30"
-  },
-  {
-    "source": "meet-the-team",
-    "block": 29,
-    "text": "PTA",
-    "disposition": "retained",
-    "target": "meet-the-team",
-    "id": "meet-the-team-29"
-  },
-  {
-    "source": "meet-the-team",
-    "block": 31,
-    "text": "Shelby is a licensed Physical Therapist Assistant who graduated from the Mendocino College Physical Therapist Assistant Program in December 2024. Shelby is dedicated to delivering high-quality, patient-centered care focused on reducing pain, restoring mobility, and improving overall quality of life. She emphasizes education, individualized treatment plans, and evidence-based interventions to empower patients throughout their recovery process. Her compassionate approach fosters a supportive environment where patients feel confident, informed, and motivated to achieve lasting results.",
-    "disposition": "retained",
-    "target": "meet-the-team",
-    "id": "meet-the-team-31"
-  },
-  {
-    "source": "meet-the-team",
-    "block": 32,
-    "text": "In early 2026, Shelby relocated to Redwood Valley and joined the Mendocino Physical Therapy team. A lifelong athlete, she participated in basketball, softball, and volleyball, experiences that inspired her passion for health, fitness, and human movement. Her athletic background provides valuable insight into the challenges faced by individuals recovering from injuries and working toward a return to sports, work, and recreational activities.",
-    "disposition": "retained",
-    "target": "meet-the-team",
-    "id": "meet-the-team-32"
-  },
-  {
-    "source": "meet-the-team",
-    "block": 33,
-    "text": "Outside the clinic, Shelby enjoys spending time with family, hiking, exploring the outdoors, paddleboarding, participating in CrossFit, and baking. Her active lifestyle reflects her commitment to wellness and strengthens her passion for helping others maintain mobility, function, and an active, healthy life.",
-    "disposition": "retained",
-    "target": "meet-the-team",
-    "id": "meet-the-team-33"
   },
   {
     "source": "meet-the-team",
