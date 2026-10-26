@@ -1145,19 +1145,19 @@
   },
   {
     "source": "insurance",
+    "block": 11,
+    "text": "SutterSelect UMR PPO/EPO",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-11"
+  },
+  {
+    "source": "insurance",
     "block": 7,
     "text": "Hawaii Mainland Admin",
     "disposition": "retained",
     "target": "insurance",
     "id": "insurance-7"
-  },
-  {
-    "source": "insurance",
-    "block": 8,
-    "text": "Medicare",
-    "disposition": "retained",
-    "target": "insurance",
-    "id": "insurance-8"
   },
   {
     "source": "insurance",
@@ -1177,19 +1177,19 @@
   },
   {
     "source": "insurance",
-    "block": 11,
-    "text": "SutterSelect UMR PPO/EPO",
-    "disposition": "retained",
-    "target": "insurance",
-    "id": "insurance-11"
-  },
-  {
-    "source": "insurance",
     "block": 12,
     "text": "Cost Share Plans",
     "disposition": "retained",
     "target": "insurance",
     "id": "insurance-12"
+  },
+  {
+    "source": "insurance",
+    "block": 8,
+    "text": "Medicare",
+    "disposition": "retained",
+    "target": "insurance",
+    "id": "insurance-8"
   },
   {
     "source": "insurance",
