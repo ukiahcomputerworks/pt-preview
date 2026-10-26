@@ -362,7 +362,7 @@
   {
     "source": "physical-therapy-1",
     "block": 29,
-    "text": "Triathelon Injuries",
+    "text": "Triathlon Injuries",
     "disposition": "retained",
     "target": "physical-therapy-1",
     "id": "physical-therapy-1-29"
@@ -394,7 +394,7 @@
   {
     "source": "physical-therapy-1",
     "block": 33,
-    "text": "Get started with Mendocino Physical Therapy, today.",
+    "text": "Get Started With Mendocino Physical Therapy Today",
     "disposition": "retained",
     "target": "physical-therapy-1",
     "id": "physical-therapy-1-33"
@@ -666,7 +666,7 @@
   {
     "source": "golf-performance",
     "block": 10,
-    "text": "Get started with Mendocino Physical Therapy, today.",
+    "text": "Get Started With Mendocino Physical Therapy Today",
     "disposition": "retained",
     "target": "golf-performance",
     "id": "golf-performance-10"
@@ -946,7 +946,7 @@
   {
     "source": "meet-the-team",
     "block": 34,
-    "text": "Get started with Mendocino Physical Therapy, today.",
+    "text": "Get Started With Mendocino Physical Therapy Today",
     "disposition": "retained",
     "target": "meet-the-team",
     "id": "meet-the-team-34"
@@ -1026,7 +1026,7 @@
   {
     "source": "testimonials",
     "block": 9,
-    "text": "Get started with Mendocino Physical Therapy, today.",
+    "text": "Get Started With Mendocino Physical Therapy Today",
     "disposition": "retained",
     "target": "testimonials",
     "id": "testimonials-9"

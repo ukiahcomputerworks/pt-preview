@@ -54,7 +54,7 @@ def apply(root, check=False):
             continue
         rendered += 1
         prefix = '../' * (len(path.relative_to(root).parts) - 1)
-        csslink = '<link rel="stylesheet" href="' + prefix + 'assets/cwu-colophon.css" data-cwu-colophon="true">'
+        csslink = '<link rel="stylesheet" href="' + prefix + 'assets/cwu-colophon.css?v=20261025-polish-1" data-cwu-colophon="true">'
         if check:
             if original.count('id="cwu-colophon"') != 1 or original.count(START) != 1 or csslink not in original or template not in original or (config.get('ownerAssumesMediaOwnership') and 'falerios' in original.lower()):
                 failures.append(str(path.relative_to(root)))
