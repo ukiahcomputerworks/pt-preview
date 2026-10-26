@@ -92,11 +92,17 @@ def testimonials():
   out+='<figure class="story">'+img(media(key,j),f'Original photograph accompanying {PAGES[key]["blocks"][i+1]["text"]}’s testimonial',prefix='../')+'<div><blockquote>'+block(key,i,'p')+'</blockquote><figcaption>'+block(key,i+1,'p')+'</figcaption></div></figure>'
  return out+block(key,9,'h2')+cta('../')
 def faqs():
- key='faqs';bs=PAGES[key]['blocks'];out=pagehead(key,'A Clearer First Step.','What to bring, what to expect and where to ask your questions.')+block(key,0,'h2')+'<div class="reader">';i=1
+ key='faqs';bs=PAGES[key]['blocks'];source_title=block(key,0,'h2').replace('class="sr-only"','class="sr-only" aria-hidden="true"',1);out=pagehead(key,'A Clearer First Step.','What to bring, what to expect and where to ask your questions.')+source_title+'<div class="reader faq-reader">';i=1
  while i<len(bs):
   if bs[i]['tag']=='h4':
    title=bs[i]['text'];out+='<details class="content-detail">'+block(key,i,'summary')+'<div>';i+=1;count=0
-   while i<len(bs) and bs[i]['tag']!='h4':out+=block(key,i);i+=1;count+=1
+   if i==2:
+    out+='<ul class="faq-checklist">'
+    while i<=6:out+=block(key,i).replace('<p ','<li ',1).replace('</p>','</li>',1);i+=1;count+=1
+    out+='</ul>'
+    while i<=8:out+=block(key,i).replace('<p ','<p class="faq-followup" ',1);i+=1;count+=1
+   else:
+    while i<len(bs) and bs[i]['tag']!='h4':out+=block(key,i);i+=1;count+=1
    if not count:out+='<p>Call the office at <a href="tel:+17074629784">707-462-9784</a> to discuss '+('referral requirements for your visit.' if 'referral' in title else 'your plan and coverage before your visit.')+'</p>'
    out+='</div></details>'
   else:out+=block(key,i);i+=1
@@ -154,7 +160,7 @@ def special(key):
 def write(key,body):
  prefix='' if key=='home' else '../';path=OUT/'index.html' if key=='home' else OUT/key/'index.html';path.parent.mkdir(parents=True,exist_ok=True)
  title=TITLES.get(key,'About This Preview');desc=DESCS.get(key,title+' at Mendocino Physical Therapy. Independent website preview in Ukiah, California.')
- html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-forms-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-forms-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-forms-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
+ html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-faq-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-faq-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-faq-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
  path.write_text(html,encoding='utf-8')
 def main():
  OUT.mkdir(exist_ok=True);(OUT/'assets/media').mkdir(parents=True,exist_ok=True)

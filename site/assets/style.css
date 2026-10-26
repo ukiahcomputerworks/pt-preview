@@ -115,6 +115,18 @@ body{line-height:1.5}.wrap{width:calc(100% - 24px);max-width:none}header{gap:14p
 .page-patient-forms .visit-strip{box-shadow:none}
 @media(max-width:760px){.forms-layout{grid-template-columns:1fr;gap:10px;padding:8px 0}.forms-art{height:190px}.clipboard{width:120px;height:140px;padding:38px 16px 14px;gap:9px 8px}.clipboard-clip{width:58px;height:27px}.forms-copy h2{font-size:32px}}
 
+/* FAQs: remove the duplicate visual heading and make the longest answer scannable. */
+.page-faqs .edition{border-top:1px solid var(--line)}
+.page-faqs .page-head{border-bottom:1px solid var(--line)}
+.faq-reader{padding-top:2px}
+.page-faqs .content-detail{border-bottom:1px solid var(--line)}
+.page-faqs .content-detail summary{border:0}
+.faq-checklist{display:grid;grid-template-columns:1fr 1fr;gap:0 20px;margin:0 0 8px;padding:0;list-style:none}
+.faq-checklist li{position:relative;padding:8px 0 8px 17px;border-bottom:1px solid var(--line);font-size:16px;line-height:1.45}
+.faq-checklist li:before{content:'';position:absolute;left:1px;top:17px;width:6px;height:6px;border-radius:50%;background:var(--clay)}
+.faq-followup{font-size:16px;margin:7px 0 0;padding-left:11px;border-left:3px solid var(--clay)}
+@media(max-width:760px){.faq-checklist{grid-template-columns:1fr;gap:0}.faq-checklist li{font-size:15px}}
+
 /* Insurance is a compact coverage board, not a loose paragraph list. */
 .insurance-intro{display:grid;grid-template-columns:1.45fr .55fr;gap:10px;padding:8px 0 10px;border-bottom:2px solid var(--green)}
 .insurance-intro>div{background:var(--soft);padding:14px 16px}.insurance-intro h2{font-size:clamp(34px,3.7vw,55px);max-width:18ch}.insurance-intro>div>p:last-child{max-width:78ch;font-size:16px}
