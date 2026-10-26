@@ -131,9 +131,13 @@ def generic(key):
   address=f'<p class="contact-address"><span>Dora St. Clinic</span><a href="{e(STREET_VIEW)}" aria-label="View The Office From Dora Street In Google Street View"><span>780 S Dora Street</span><span>Ukiah, CA 95482</span></a></p>'
   out+='<div class="contact-grid"><section class="contact-office">'+heading+facts+address_source+address+'<div class="contact-actions"><a class="button-link" href="tel:+17074629784">Call 707-462-9784</a><a class="button-link secondary" href="https://www.google.com/maps/search/?api=1&query=780+S+Dora+Street+Ukiah+CA+95482">Get Directions</a></div>'+cta('../')+'</section><section class="contact-preview"><p class="eyebrow">Online Message Preview</p><h2>Prefer To Write?</h2><p>Online messages are unavailable in this preview. Please call the office to get in touch.</p><fieldset disabled aria-label="Inactive contact form preview"><label>First Name<input type="text" autocomplete="off"></label><label>Last Name<input type="text" autocomplete="off"></label><label>Email<input type="email" autocomplete="off"></label><label>Message<textarea rows="3"></textarea></label><button type="button" disabled>Send (Preview Only)</button></fieldset></section></div>'
  else:
-  out+='<div class="editorial-body">'+source_body(key,'../')
-  if key in ['about-us','careers']:out+='<aside>'+img(media(key),'The practice’s facility' if key=='about-us' else 'Physical therapy pictured on the careers page',prefix='../')+'</aside>'
-  out+='</div>'
+  if key=='careers':
+   source_title=block(key,0,'h2').replace('class="sr-only"','class="sr-only" aria-hidden="true"',1);source_copy=block(key,1).replace('<p ','<p class="sr-only" aria-hidden="true" ',1)
+   out+='<div class="careers-layout"><section class="careers-pitch">'+source_title+source_copy+'<p class="careers-intro">We are always looking to hire great physical therapists at Mendocino Physical Therapy.</p><h2>Room To Build Good Work.</h2><ul class="career-benefits"><li>Great compensation packages</li><li>Flexible schedules</li><li>Support for passion projects</li></ul><p class="career-note">That can include coaching a team or teaching a fitness class.</p></section><aside>'+img(media(key),'Physical therapy pictured on the careers page',prefix='../')+'</aside></div>'
+  else:
+   out+='<div class="editorial-body">'+source_body(key,'../')
+   if key=='about-us':out+='<aside>'+img(media(key),'The practice’s facility',prefix='../')+'</aside>'
+   out+='</div>'
   if key=='insurance':out+='<p class="schedule-note">A listed insurer does not confirm your individual benefits. Call the office to check your plan and visit requirements.</p>'
   if key=='about-us':out+='<p class="schedule-note">Call the office to confirm the location for your appointment.</p>'
  return out if key=='contact-us' else out+cta('../')
@@ -148,7 +152,7 @@ def special(key):
 def write(key,body):
  prefix='' if key=='home' else '../';path=OUT/'index.html' if key=='home' else OUT/key/'index.html';path.parent.mkdir(parents=True,exist_ok=True)
  title=TITLES.get(key,'About This Preview');desc=DESCS.get(key,title+' at Mendocino Physical Therapy. Independent website preview in Ukiah, California.')
- html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-stories-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-stories-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-stories-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
+ html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-careers-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-careers-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-careers-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
  path.write_text(html,encoding='utf-8')
 def main():
  OUT.mkdir(exist_ok=True);(OUT/'assets/media').mkdir(parents=True,exist_ok=True)
