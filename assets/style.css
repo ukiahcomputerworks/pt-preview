@@ -147,6 +147,23 @@ body{line-height:1.5}.wrap{width:calc(100% - 24px);max-width:none}header{gap:14p
 @media(max-width:760px){.about-layout{grid-template-columns:1fr;gap:10px}.about-copy>h2,.about-facility h2{font-size:30px}.about-pillars li{grid-template-columns:125px 1fr;gap:9px}.about-facility img{height:170px}}
 @media(max-width:390px){.about-pillars li{grid-template-columns:1fr;gap:2px}}
 
+/* First visit: one clear call path, compact preparation guidance and outlined resources. */
+.page-book-an-appointment .edition,.page-book-an-appointment .page-head{border-color:var(--line)}
+.first-visit-intro{display:grid;grid-template-columns:minmax(300px,.85fr) minmax(0,1.15fr);gap:20px;padding:2px 0 10px;align-items:start}
+.first-visit-call{background:var(--soft);padding:16px}
+.first-visit-call h2{font-size:36px;line-height:1.08}
+.first-visit-call>p:not(.eyebrow){font-size:17px;line-height:1.5;max-width:52ch}
+.first-visit-call small{display:block;margin-top:9px;font-size:13px;line-height:1.4;color:var(--muted)}
+.first-visit-path{border-top:1px solid var(--line)}
+.first-visit-path article{display:grid;grid-template-columns:160px 1fr;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
+.first-visit-path strong{font-size:16px;color:var(--clay)}
+.first-visit-path p{margin:0;font-size:16px;line-height:1.45}
+.visit-resources{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:0 0 10px}
+.resource-button{display:flex;align-items:center;justify-content:center;min-height:48px;padding:9px 12px;border:1px solid var(--green);color:var(--green);font-weight:700;text-align:center;text-decoration:none;background:transparent}
+.resource-button:hover,.resource-button:focus-visible{background:var(--green);color:var(--paper)}
+@media(max-width:760px){.first-visit-intro{grid-template-columns:1fr;gap:10px;padding-bottom:8px}.first-visit-call{padding:13px}.first-visit-call h2{font-size:32px}.visit-resources{grid-template-columns:1fr;gap:6px}.resource-button{justify-content:flex-start}.first-visit-path article{grid-template-columns:135px 1fr;gap:10px;padding:10px 0}}
+@media(max-width:360px){.first-visit-path article{grid-template-columns:1fr;gap:2px}}
+
 /* Insurance is a compact coverage board, not a loose paragraph list. */
 .insurance-intro{display:grid;grid-template-columns:1.45fr .55fr;gap:10px;padding:8px 0 10px;border-bottom:2px solid var(--green)}
 .insurance-intro>div{background:var(--soft);padding:14px 16px}.insurance-intro h2{font-size:clamp(34px,3.7vw,55px);max-width:18ch}.insurance-intro>div>p:last-child{max-width:78ch;font-size:16px}
