@@ -45,6 +45,23 @@ body{line-height:1.5}.wrap{width:calc(100% - 24px);max-width:none}header{gap:14p
 .legends-copy p{margin-bottom:10px}
 @media(max-width:760px){.page-functional-fitness-classes .program{grid-template-columns:1fr;gap:10px}.page-functional-fitness-classes .program-heading img{width:100%;height:220px;max-height:none}.page-functional-fitness-classes .program h2{font-size:32px}}
 
+/* Golf Performance: one clear title and a compact three-part assessment sequence. */
+.page-golf-performance .edition{border-top:1px solid var(--line)}
+.page-golf-performance .page-head{border-bottom:1px solid var(--line)}
+.page-golf-performance .care-intro{grid-template-columns:minmax(0,1.15fr) minmax(330px,.85fr);gap:24px;align-items:start}
+.page-golf-performance .care-intro>div{max-width:70ch}
+.page-golf-performance .care-intro img{width:100%;height:230px;max-height:none;object-fit:cover;object-position:center;border-radius:8px}
+.tpi-credential{font:700 24px/1.25 Arial,sans-serif;letter-spacing:0;color:var(--clay);margin-bottom:10px}
+.tpi-assessment{padding:10px 0;border-top:1px solid var(--line)}
+.tpi-assessment>h2{font-size:34px}
+.tpi-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.tpi-cards article{padding:12px;border:1px solid var(--line);border-top:3px solid var(--clay);background:#faf9f4}
+.tpi-cards h3{font-size:20px;margin-bottom:7px}
+.tpi-cards p{font-size:16px;line-height:1.45}
+.golf-close{padding-top:10px}
+.golf-close h2{font-size:28px}
+@media(max-width:760px){.page-golf-performance .care-intro{grid-template-columns:1fr;gap:10px}.page-golf-performance .care-intro img{width:100%;height:210px;max-height:none}.tpi-cards{grid-template-columns:1fr}.tpi-assessment>h2{font-size:32px}}
+
 /* Insurance is a compact coverage board, not a loose paragraph list. */
 .insurance-intro{display:grid;grid-template-columns:1.45fr .55fr;gap:10px;padding:8px 0 10px;border-bottom:2px solid var(--green)}
 .insurance-intro>div{background:var(--soft);padding:14px 16px}.insurance-intro h2{font-size:clamp(34px,3.7vw,55px);max-width:18ch}.insurance-intro>div>p:last-child{max-width:78ch;font-size:16px}

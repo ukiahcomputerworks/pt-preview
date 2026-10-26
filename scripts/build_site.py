@@ -28,7 +28,7 @@ def block(key,i,tag=None):
  MIGRATION.append({'source':key,'block':i,'text':b['text'],'disposition':'retained','target':key,'id':f'{key}-{i}'})
  # Repeated source page labels remain in the migration map and accessible document,
  # without competing visually with the new page title.
- hidden=' class="sr-only"' if i==0 and key in {'physical-therapy-1','meet-the-team','testimonials','faqs','about-us','insurance','careers','contact-us','book-an-appointment'} else ''
+ hidden=' class="sr-only"' if i==0 and key in {'physical-therapy-1','golf-performance','meet-the-team','testimonials','faqs','about-us','insurance','careers','contact-us','book-an-appointment'} else ''
  formatted=e(value)
  for address in ['780 S Dora St, Ukiah CA 95482','780 S Dora Street Ukiah CA 95482']:
   formatted=formatted.replace(e(address),f'<a href="{e(STREET_VIEW)}" aria-label="View The Office From Dora Street In Google Street View">{e(address)}</a>')
@@ -114,9 +114,14 @@ def fitness():
   out+=('<div class="action-row"><a class="button-link" href="tel:+17072343239">Call Firefly</a><a class="text-link" href="mailto:crossfitfirefly@gmail.com">Email Firefly</a><a class="text-link" href="https://www.crossfitfirefly.com/">Crossfit Firefly</a></div>' if j==0 else '<a class="button-link" href="https://mendocinopt.as.me/">Reserve A Clinic Class</a>')+'</div></section>'
  return out+'<p class="schedule-note">Confirm current class times and the correct location before attending. Class reservations open the practice’s existing scheduling service.</p>'+cta('../')
 def golf():
- key='golf-performance';out=pagehead(key,'The Body Behind Your Swing.','Bring your movement goals to the course.')+'<div class="care-intro"><div>'+''.join(block(key,i,'h2' if i==0 else 'h3' if i==1 else 'p') for i in range(3))+'</div>'+img(media(key),'Golf photograph from the practice’s golf performance page',prefix='../')+'</div><div class="reader">'
- out+=''.join(block(key,i,'h2' if PAGES[key]['blocks'][i]['tag']=='h3' else 'h3' if PAGES[key]['blocks'][i]['tag']=='h4' else 'p') for i in range(3,len(PAGES[key]['blocks'])))
- return out+'</div>'+cta('../')
+ key='golf-performance';out=pagehead(key,'The Body Behind Your Swing.','Bring your movement goals to the course.')
+ credential=block(key,1,'h2').replace('<h2 ','<h2 class="tpi-credential" ',1)
+ source_title=block(key,0,'h2').replace('class="sr-only"','class="sr-only" aria-hidden="true"',1)
+ out+='<div class="care-intro"><div>'+source_title+credential+block(key,2)+'</div>'+img(media(key),'Golf photograph from the practice’s golf performance page',prefix='../')+'</div>'
+ out+='<section class="tpi-assessment">'+block(key,3,'h2')+'<div class="tpi-cards">'
+ for heading,copy in [(4,5),(6,7),(8,9)]:out+='<article>'+block(key,heading,'h3')+block(key,copy)+'</article>'
+ out+='</div></section><div class="golf-close">'+block(key,10,'h2')+'</div>'
+ return out+cta('../')
 def generic(key):
  intros={'about-us':('A Local Practice. A Personal Approach.','Hands-on care, fitness and a connection to this community.'),'insurance':('Before Your Visit.','Find the practice’s listed insurance information and talk through your coverage with the office.'),'careers':('Bring Your Work To Life.','Build your career in a community that values movement.'),'contact-us':('Start With A Conversation.','Speak with the office about appointments, classes or questions.')}
  kicker,desc=intros[key];out=pagehead(key,kicker,desc)
@@ -143,7 +148,7 @@ def special(key):
 def write(key,body):
  prefix='' if key=='home' else '../';path=OUT/'index.html' if key=='home' else OUT/key/'index.html';path.parent.mkdir(parents=True,exist_ok=True)
  title=TITLES.get(key,'About This Preview');desc=DESCS.get(key,title+' at Mendocino Physical Therapy. Independent website preview in Ukiah, California.')
- html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-fitness-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-fitness-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-fitness-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
+ html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-golf-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-golf-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-golf-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
  path.write_text(html,encoding='utf-8')
 def main():
  OUT.mkdir(exist_ok=True);(OUT/'assets/media').mkdir(parents=True,exist_ok=True)
