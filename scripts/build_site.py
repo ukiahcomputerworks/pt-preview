@@ -106,7 +106,11 @@ def fitness():
  out=pagehead(key,'Strength Has No Single Starting Point.','Two distinct programs. Practical movement, supportive community and room to grow.')
  for j,(lo,hi) in enumerate([(0,split),(split,len(bs))]):
   out+='<section class="program"><div class="program-heading"><p class="eyebrow">'+('Firefly Partnership · Ages 55+' if j==0 else 'At The Dora Street Clinic')+'</p>'+img(media(key),'Fitness class pictured on the practice website',prefix='../')+'</div><div>'
-  for i in range(lo,hi):out+=block(key,i,'h2' if bs[i]['tag']=='h2' else 'h3' if bs[i]['tag'].startswith('h') else 'p')
+  for i in range(lo,hi):
+   if i==1:
+    block(key,i);text=bs[i]['text'];cut=text.index(' We believe')
+    out+=f'<div class="legends-copy" data-source="{key}-{i}"><p>{e(text[:cut])}</p><p>{e(text[cut+1:])}</p></div>'
+   else:out+=block(key,i,'h2' if bs[i]['tag']=='h2' else 'h3' if bs[i]['tag'].startswith('h') else 'p')
   out+=('<div class="action-row"><a class="button-link" href="tel:+17072343239">Call Firefly</a><a class="text-link" href="mailto:crossfitfirefly@gmail.com">Email Firefly</a><a class="text-link" href="https://www.crossfitfirefly.com/">Crossfit Firefly</a></div>' if j==0 else '<a class="button-link" href="https://mendocinopt.as.me/">Reserve A Clinic Class</a>')+'</div></section>'
  return out+'<p class="schedule-note">Confirm current class times and the correct location before attending. Class reservations open the practice’s existing scheduling service.</p>'+cta('../')
 def golf():
@@ -139,7 +143,7 @@ def special(key):
 def write(key,body):
  prefix='' if key=='home' else '../';path=OUT/'index.html' if key=='home' else OUT/key/'index.html';path.parent.mkdir(parents=True,exist_ok=True)
  title=TITLES.get(key,'About This Preview');desc=DESCS.get(key,title+' at Mendocino Physical Therapy. Independent website preview in Ukiah, California.')
- html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-physical-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-physical-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-physical-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
+ html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-fitness-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-fitness-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-fitness-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
  path.write_text(html,encoding='utf-8')
 def main():
  OUT.mkdir(exist_ok=True);(OUT/'assets/media').mkdir(parents=True,exist_ok=True)
