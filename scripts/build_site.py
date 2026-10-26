@@ -79,7 +79,7 @@ def team():
   out+='</div></article>'
  out+=block(key,len(bs)-1,'h2')+cta('../');return out
 def insurance():
- key='insurance';out=pagehead(key,'Coverage Without The Runaround.','A clearer way to see the plans the practice lists—and what to ask before your first visit.')+block(key,0,'h2')
+ key='insurance';source_title=block(key,0,'h2').replace('class="sr-only"','class="sr-only" aria-hidden="true"',1);out=pagehead(key,'Coverage Without The Runaround.','A clearer way to see the plans the practice lists—and what to ask before your first visit.')+source_title
  out+='<section class="insurance-intro"><div><p class="eyebrow">Start With Your Card.</p><h2>Bring The Details.<br>They’ll Help You Sort Them.</h2>'+block(key,1)+'</div><aside class="coverage-check"><strong>Before You Schedule</strong><p>Call the office with your insurance card available. Coverage and patient costs depend on your specific plan.</p><a class="button-link" href="tel:+17074629784">Call 707-462-9784</a></aside></section>'
  out+='<section class="coverage-section"><div class="coverage-heading"><p class="eyebrow">The Coverage Board</p>'+block(key,2,'h2')+'</div><div class="coverage-board">'
  groups=[('PPO Plans','paper',[3,4,5,6,11]),('Administrators & Other Plans','green',[7,9,10,12]),('Medicare & MedPay','clay',[8,13])]
@@ -152,7 +152,7 @@ def special(key):
 def write(key,body):
  prefix='' if key=='home' else '../';path=OUT/'index.html' if key=='home' else OUT/key/'index.html';path.parent.mkdir(parents=True,exist_ok=True)
  title=TITLES.get(key,'About This Preview');desc=DESCS.get(key,title+' at Mendocino Physical Therapy. Independent website preview in Ukiah, California.')
- html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-careers-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-careers-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-careers-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
+ html=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="{e(desc)}"><title>{e(title)} | Mendocino Physical Therapy</title><link rel="canonical" href="{CANON+('' if key=='home' else key+'/')}"><link rel="icon" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v=20261025-insurance-polish-1"><link rel="stylesheet" href="{prefix}assets/workshop.css?v=20261025-insurance-polish-1"><script src="{prefix}assets/workshop.js?v=20261025-insurance-polish-1" defer></script></head><body class="page-{key}">{header(key,prefix)}<main id="main">{body}</main>{footer(prefix)}</div></body></html>'''
  path.write_text(html,encoding='utf-8')
 def main():
  OUT.mkdir(exist_ok=True);(OUT/'assets/media').mkdir(parents=True,exist_ok=True)

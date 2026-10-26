@@ -1098,7 +1098,7 @@
   {
     "source": "insurance",
     "block": 1,
-    "text": "We accept most Insurance and Worke’s Compensation cases. We unfortunately are not Medi-Cal providers and do not accept Auto Accident Liens but will bill your personal auto insurance if you have available MedPay. We always as a courtesy bill your insurance for you regardless if we are contracted with your insurance or not.",
+    "text": "We accept most insurance and Workers' Compensation cases. We unfortunately are not Medi-Cal providers and do not accept Auto Accident Liens but will bill your personal auto insurance if you have available MedPay. As a courtesy, we will always bill your insurance on your behalf, regardless of whether we are contracted with your provider.",
     "disposition": "retained",
     "target": "insurance",
     "id": "insurance-1"
