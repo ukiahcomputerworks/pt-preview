@@ -165,16 +165,21 @@ body{line-height:1.5}.wrap{width:calc(100% - 24px);max-width:none}header{gap:14p
 @media(max-width:360px){.first-visit-path article{grid-template-columns:1fr;gap:2px}}
 
 /* Back To Sport: softer path choices, approachable photography and one cohesive CTA. */
-.page-sports-rehabilitation .edition,.page-sports-rehabilitation .page-head{border-color:var(--line)}
-.page-sports-rehabilitation .audience-intro img{border-radius:8px}
-.page-sports-rehabilitation .pathway-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;max-width:none;padding:0 0 2px}
-.page-sports-rehabilitation .path-row{justify-content:center;min-height:48px;padding:9px 12px;border:1px solid var(--line);background:transparent;text-align:center}
-.page-sports-rehabilitation .path-row:hover,.page-sports-rehabilitation .path-row:focus-visible{background:var(--soft);border-color:var(--green)}
-.page-sports-rehabilitation .visit-strip{width:100%;align-items:center;justify-content:space-between;background:var(--signal);border:0;box-shadow:none;padding:12px 16px}
-.page-sports-rehabilitation .visit-strip>a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:9px 14px;background:var(--green);color:var(--paper);border:1px solid var(--green);box-shadow:none;text-shadow:none;text-decoration:none;font:700 17px/1.2 Arial,sans-serif}
-.page-sports-rehabilitation .visit-strip>a:hover{background:var(--clay);color:var(--paper);border-color:var(--clay)}
+:is(.page-sports-rehabilitation,.page-healthy-aging) .edition,:is(.page-sports-rehabilitation,.page-healthy-aging) .page-head{border-color:var(--line)}
+:is(.page-sports-rehabilitation,.page-healthy-aging) .audience-intro img{border-radius:8px}
+:is(.page-sports-rehabilitation,.page-healthy-aging) .pathway-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;max-width:none;padding:0 0 2px}
+:is(.page-sports-rehabilitation,.page-healthy-aging) .path-row{justify-content:center;min-height:48px;padding:9px 12px;border:1px solid var(--line);background:transparent;text-align:center}
+:is(.page-sports-rehabilitation,.page-healthy-aging) .path-row:hover,:is(.page-sports-rehabilitation,.page-healthy-aging) .path-row:focus-visible{background:var(--soft);border-color:var(--green)}
+:is(.page-sports-rehabilitation,.page-healthy-aging) .visit-strip{width:100%;align-items:center;justify-content:space-between;background:var(--signal);border:0;box-shadow:none;padding:12px 16px}
+:is(.page-sports-rehabilitation,.page-healthy-aging) .visit-strip>a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:9px 14px;background:var(--green);color:var(--paper);border:1px solid var(--green);box-shadow:none;text-shadow:none;text-decoration:none;font:700 17px/1.2 Arial,sans-serif}
+:is(.page-sports-rehabilitation,.page-healthy-aging) .visit-strip>a:hover{background:var(--clay);color:var(--paper);border-color:var(--clay)}
+.page-healthy-aging .audience-intro{grid-template-columns:minmax(0,1.05fr) minmax(360px,.95fr);gap:24px}
+.page-healthy-aging .audience-intro>div{max-width:64ch}
+.page-healthy-aging .audience-intro h2{font-size:36px;line-height:1.1;color:var(--muted)}
+.page-healthy-aging .audience-intro p{font-size:17px;line-height:1.55}
+.page-healthy-aging .audience-intro img{width:100%;height:220px;max-height:none;object-fit:cover;object-position:center}
 .footer-directory>div:first-child p{line-height:1.75}
-@media(max-width:760px){.page-sports-rehabilitation .pathway-links{grid-template-columns:1fr;gap:6px}.page-sports-rehabilitation .path-row{justify-content:flex-start;text-align:left}.page-sports-rehabilitation .visit-strip{align-items:stretch}.page-sports-rehabilitation .visit-strip>a{width:100%}}
+@media(max-width:760px){:is(.page-sports-rehabilitation,.page-healthy-aging) .pathway-links{grid-template-columns:1fr;gap:6px}:is(.page-sports-rehabilitation,.page-healthy-aging) .path-row{justify-content:flex-start;text-align:left}:is(.page-sports-rehabilitation,.page-healthy-aging) .visit-strip{align-items:stretch}:is(.page-sports-rehabilitation,.page-healthy-aging) .visit-strip>a{width:100%}.page-healthy-aging .audience-intro{grid-template-columns:1fr;gap:10px}.page-healthy-aging .audience-intro h2{font-size:31px}.page-healthy-aging .audience-intro img{height:220px;max-height:none;width:100%;object-fit:cover;object-position:center}}
 
 /* Insurance is a compact coverage board, not a loose paragraph list. */
 .insurance-intro{display:grid;grid-template-columns:1.45fr .55fr;gap:10px;padding:8px 0 10px;border-bottom:2px solid var(--green)}
