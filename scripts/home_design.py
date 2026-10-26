@@ -1,9 +1,8 @@
 """Source-backed reference, people and practical sections for the homepage."""
 def render_reference(block,img,media,link,cta,pages,data):
  out=''
- out+='''<div class="practical-rail"><span>Before You Visit</span><a href="insurance/">Insurance</a><a href="faqs/">What To Bring</a><a href="contact-us/">Find Us</a></div>'''
  names=[b['text'] for b in pages['meet-the-team']['blocks'] if b['tag']=='h3' and not b['text'].lower().startswith('get started')]
- out+='<section class="real-people"><div class="people-intro"><p class="eyebrow">People From Here</p><h2>The People Behind Your Next Step.</h2><p>Meet the team. Read their stories.</p>'+link('meet-the-team','Meet The Whole Team ')+'</div><div class="people-strip">'
+ out+='<section class="real-people"><div class="people-intro"><p class="eyebrow">People From Here</p><h2>The People Behind Your Next Step.</h2><p>Choose a face to read their story.</p></div><div class="people-strip">'
  for i,name in enumerate(names):out+=f'<a href="meet-the-team/#person-{i+1}"><span class="portrait-crop">'+img(media('meet-the-team',i),'')+f'</span><span>{name}</span></a>'
  out+='</div></section><section class="practice-reference"><div class="reference-heading"><p class="eyebrow">Care, In Plain Sight.</p><h2>The Practice, <br>In Detail.</h2></div><div class="reference-rows"><details class="content-detail"><summary>How We Work</summary><div class="reference-copy">'
  for i in range(8):out+=block('home',i,'h3' if pages['home']['blocks'][i]['tag'].startswith('h') else 'p')
